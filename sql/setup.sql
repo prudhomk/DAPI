@@ -1,5 +1,21 @@
-DROP TABLE IF EXISTS `${tableName}` CASCADE;
+DROP TABLE IF EXISTS digimon CASCADE;
 
-CREATE TABLE `${tableName}` (
+CREATE TABLE digimon (
   id BIGINT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
+  name TEXT NOT NULL,
+  series TEXT NOT NULL,
+  level TEXT NOT NULL,
+  gender TEXT NOT NULL,
+  type TEXT NOT NULL,
+  can_digivolve BOOLEAN NOT NULL,
+  tamer TEXT NOT NULL,
+)
+
+CREATE TABLE tamers (
+  id BIGINT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
+  name TEXT NOT NULL,
+  generation TEXT NOT NULL,
+  partner BIGINT REFERENCES digimon(id),
+  can_spiritvolve BOOLEAN NOT NULL,
+  digivice TEXT NOT NULL,
 )
