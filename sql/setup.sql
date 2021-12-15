@@ -1,4 +1,4 @@
-DROP TABLE IF EXISTS digimon CASCADE;
+DROP TABLE IF EXISTS digimon, tamers CASCADE;
 
 CREATE TABLE digimon (
   id BIGINT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
@@ -8,8 +8,8 @@ CREATE TABLE digimon (
   gender TEXT NOT NULL,
   type TEXT NOT NULL,
   can_digivolve BOOLEAN NOT NULL,
-  tamer TEXT NOT NULL,
-)
+  tamer TEXT NOT NULL
+);
 
 CREATE TABLE tamers (
   id BIGINT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
@@ -17,5 +17,5 @@ CREATE TABLE tamers (
   generation TEXT NOT NULL,
   partner BIGINT REFERENCES digimon(id),
   can_spiritvolve BOOLEAN NOT NULL,
-  digivice TEXT NOT NULL,
-)
+  digivice TEXT NOT NULL
+);
