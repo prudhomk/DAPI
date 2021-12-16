@@ -28,4 +28,35 @@ describe('digimon routes', () => {
     expect(res.body).toEqual({ ...digimon, id: '1' });
   });
 
+  test('get all digimon', async () => {
+    await DigitalMonster.create(digimon);
+
+    const secondDigimon = { 
+      name: 'Terriermon',
+      series: 'Adventure 02',
+      level: 'Rookie',
+      gender: 'none',
+      type: 'Animal',
+      canDigivolve: true,
+      tamer: 'Willis, Henry Wong'
+    };
+
+    await DigitalMonster.create(secondDigimon);
+    const res = await request(app)
+      .get('/api/v1/digimon')
+      .send(digimon)
+      .send(secondDigimon);
+
+    expect(res.body).toEqual([{ ...digimon, id: '1' }, { ...secondDigimon, id: '2' }]);
+  });
+
+  test('find digimon by id', async () => {
+    const newDigimon = await DigitalMonster.create(digimon);
+
+    const res = await request(app)
+      .get(`/api/v1/digimon/${newDigimon.id}`);
+
+    expect(res.body).toEqual({ ...digimon, id: '1' });
+  });
+
 });
