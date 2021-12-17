@@ -76,6 +76,27 @@ describe('digimon routes', () => {
       .get('/api/v1/digimon/query/query?canDigivolve=true');
     expect(res.body).toEqual([newDigimon, secondDigimon]);
 
+    const resSecond = await request(app)
+      .get('/api/v1/digimon/query/query?level=rookie&type=lizard');
+    expect(resSecond.body).toEqual([newDigimon]);
   });
 
+  test('edit a digimon', async () => {
+    const wrongDigimon = await DigitalMonster.create({
+      name: 'Gabumon',
+      series: 'Adventure 01',
+      level: 'Rookie',
+      gender: 'none',
+      type: 'Animal',
+      canDigivolve: true,
+      tamer: 'Yamato "Matt" Ishida'
+    });
+
+    wrongDigimon.type = 'Reptile';
+    const res = await request(app)
+      .put(`/api/v1/digimon/${wrongDigimon.id}`)
+      .send(wrongDigimon);
+
+    expect(res.body).not.toEqual({ ...wrongDigimon, id: '3' });
+  });
 });
