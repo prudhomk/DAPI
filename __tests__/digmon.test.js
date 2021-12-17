@@ -3,7 +3,6 @@ import setup from '../data/setup.js';
 import request from 'supertest';
 import app from '../lib/app.js';
 import DigitalMonster from '../lib/models/DigitalMonster.js';
-import req from 'express/lib/request';
 
 describe('digimon routes', () => {
   beforeEach(() => {
@@ -63,7 +62,7 @@ describe('digimon routes', () => {
   test('query digimon', async () => {
     const newDigimon = await DigitalMonster.create(digimon);
 
-    const secondDigimon = { 
+    const secondDigimon = await DigitalMonster.create({ 
       name: 'Terriermon',
       series: 'Adventure 02',
       level: 'Rookie',
@@ -71,12 +70,11 @@ describe('digimon routes', () => {
       type: 'Animal',
       canDigivolve: true,
       tamer: 'Willis, Henry Wong'
-    };
+    });
     
-    await DigitalMonster.create(secondDigimon);
     const res = await request(app)
-      .get('/api/v1/digimon/query/query?');
-    expect(res.body).toEqual([newDigimon]);
+      .get('/api/v1/digimon/query/query?canDigivolve=true');
+    expect(res.body).toEqual([newDigimon, secondDigimon]);
 
   });
 
