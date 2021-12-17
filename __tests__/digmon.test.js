@@ -99,4 +99,22 @@ describe('digimon routes', () => {
 
     expect(res.body).not.toEqual({ ...wrongDigimon, id: '3' });
   });
+
+  test('delete a digimon', async () => {
+    const pokemon = await DigitalMonster.create({
+      name: 'Pikachu',
+      series: 'Pokemon',
+      level: '6',
+      gender: 'male',
+      type: 'Electric Mouse',
+      canDigivolve: false,
+      tamer: 'Ash Ketchum'
+    });
+
+    const res = await request(app)
+      .delete(`/api/v1/digimon/${pokemon.id}`)
+      .send(pokemon);
+    
+    expect(res.body).toEqual({ ...pokemon, id: '1' });
+  });
 });
