@@ -5,7 +5,7 @@ const digimon = [
     level: 'Rookie', 
     gender: 'Male', 
     type: 'Lizard', 
-    can_digivolve: true,
+    canDigivolve: true,
     tamer: 'Taichi "Tai" Kamiya'
   }
 ];
