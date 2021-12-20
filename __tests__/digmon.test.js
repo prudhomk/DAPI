@@ -117,4 +117,8 @@ describe('digimon routes', () => {
     
     expect(res.body).toEqual({ ...pokemon, id: '1' });
   });
+
+  afterAll(() => {
+    pool.end();
+  });
 });
