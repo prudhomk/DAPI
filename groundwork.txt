@@ -1,0 +1,20 @@
+What needs to be in place for this to work:
+
+-Dynamic SQL Routes (SQL that uses javascript function to 'write itself' and account for any input)
+-Dynamic table creation (using temperate literals (if that is allowed?) and writing itself similar to SQL)
+-Proper forms for the user to interact with (frontend), add/edit/delete features
+-Get backend basic system working first, then maybe build out a viewing page for frontend, otherwise just forms
+-Have tables tied to users with auth (stretch)
+
+HOW:
+
+For a dynamic table to exist, there must be protections against SQL injection.
+Therefore, some limitiations must be in place, either regex restrictions (i.e. if(name contains 'DROP TABLES')),
+or set the input value to a variable, then use that instead (maybe 'type' the variable)?
+Table rows could probablly follow the dynamic route (auto fill SQL text around the variables),
+you would need to have users provide: rowName, dataType (TEXT, INT, DIGIT, etc), NOT NULL would be automaticall appended.
+
+All further routes and code would depend on these values and variables, so you would need
+a way to not only take in these values, but also asses what they are and how they should be placed (boolean or not, string vs number, referrences another table, etc)
+
+a true challenge, and it might not be secure if the user has so much control (but that is the point of the app after all)
