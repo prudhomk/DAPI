@@ -1,4 +1,4 @@
-const digimon = [
+const digimons = [
   {
     name: 'Agumon', 
     series: 'Adventure 01',
@@ -10,4 +10,4 @@ const digimon = [
   }
 ];
 
-export default digimon;
+export default digimons;
