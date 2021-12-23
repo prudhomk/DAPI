@@ -1,6 +1,7 @@
 const digimons = [
   {
     name: 'Botamon', 
+    image: 'placeholder.jpeg',
     series: 'Adventure 01',
     level: 'Fresh', 
     attribute: 'None', 
@@ -10,6 +11,7 @@ const digimons = [
   },
   {
     name: 'Koromon', 
+    image: 'placeholder.jpeg',
     series: 'Adventure 01',
     level: 'In-Training', 
     attribute: 'Data', 
@@ -19,6 +21,7 @@ const digimons = [
   },
   {
     name: 'Agumon', 
+    image: 'placeholder.jpeg',
     series: 'Adventure 01',
     level: 'Rookie', 
     attribute: 'Vaccine/Virus', 
@@ -28,6 +31,7 @@ const digimons = [
   },
   {
     name: 'Greymon', 
+    image: 'placeholder.jpeg',
     series: 'Adventure 01',
     level: 'Champion', 
     attribute: 'Vaccine', 
@@ -37,6 +41,7 @@ const digimons = [
   },
   {
     name: 'SkullGreymon', 
+    image: 'placeholder.jpeg',
     series: 'Adventure 01',
     level: 'Ultimate', 
     attribute: 'Virus', 
@@ -46,6 +51,7 @@ const digimons = [
   },
   {
     name: 'MetalGreymon', 
+    image: 'placeholder.jpeg',
     series: 'Adventure 01',
     level: 'Champion', 
     attribute: 'Vaccine/Virus', 
@@ -55,6 +61,7 @@ const digimons = [
   },
   {
     name: 'WarGreymon', 
+    image: 'placeholder.jpeg',
     series: 'Adventure 01',
     level: 'Mega', 
     attribute: 'Vaccine', 
@@ -63,88 +70,388 @@ const digimons = [
     tamer: 'Taichi "Tai" Kamiya'
   },
   {
-    name: 'WarGreymon X', 
+    name: 'Omnimon', 
+    image: 'placeholder.jpeg',
     series: 'Adventure 01',
     level: 'Mega', 
-    attribute: 'Male', 
+    attribute: 'Vaccine', 
     type: 'Lizard', 
-    canDigivolve: true,
+    canDigivolve: false,
     tamer: 'Taichi "Tai" Kamiya'
   },
   {
-    name: 'Omnimon', 
+    name: 'Punimon', 
+    image: 'placeholder.jpeg',
     series: 'Adventure 01',
-    level: 'Mega', 
-    attribute: 'Male', 
-    type: 'Lizard', 
+    level: 'Fresh', 
+    attribute: 'None', 
+    type: 'Slime', 
     canDigivolve: true,
-    tamer: 'Taichi "Tai" Kamiya'
+    tamer: 'Yamato "Matt" Ishida'
+  },
+  {
+    name: 'Tsunomon', 
+    image: 'placeholder.jpeg',
+    series: 'Adventure 01',
+    level: 'In-Training', 
+    attribute: 'Data', 
+    type: 'Lesser', 
+    canDigivolve: true,
+    tamer: 'Yamato "Matt" Ishida'
   },
   {
     name: 'Gabumon', 
+    image: 'placeholder.jpeg',
     series: 'Adventure 01',
     level: 'Rookie', 
-    attribute: 'Male', 
-    type: 'Lizard', 
+    attribute: 'Vaccine/Virus', 
+    type: 'Reptile', 
     canDigivolve: true,
-    tamer: 'Taichi "Tai" Kamiya'
+    tamer: 'Yamato "Matt" Ishida'
+  },
+  {
+    name: 'Garurumon', 
+    image: 'placeholder.jpeg',
+    series: 'Adventure 01',
+    level: 'Champion', 
+    attribute: 'Vaccine/Virus', 
+    type: 'Beast', 
+    canDigivolve: true,
+    tamer: 'Yamato "Matt" Ishida'
+  },
+  {
+    name: 'WereGarurumon', 
+    image: 'placeholder.jpeg',
+    series: 'Adventure 01',
+    level: 'Ultimate', 
+    attribute: 'Vaccine', 
+    type: 'Beastman', 
+    canDigivolve: true,
+    tamer: 'Yamato "Matt" Ishida'
+  },
+  {
+    name: 'MetalGarurumon', 
+    image: 'placeholder.jpeg',
+    series: 'Adventure 01',
+    level: 'Mega', 
+    attribute: 'Vaccine', 
+    type: 'Cyborg', 
+    canDigivolve: true,
+    tamer: 'Yamato "Matt" Ishida'
+  },
+  {
+    name: 'Nyokimon', 
+    image: 'placeholder.jpeg',
+    series: 'Adventure 01',
+    level: 'Fresh', 
+    attribute: 'None', 
+    type: 'Seed', 
+    canDigivolve: true,
+    tamer: 'Sora Takenouchi'
+  },
+  {
+    name: 'Yokomon', 
+    image: 'placeholder.jpeg',
+    series: 'Adventure 01',
+    level: 'In-Training', 
+    attribute: 'Data', 
+    type: 'Bulb', 
+    canDigivolve: true,
+    tamer: 'Sora Takenouchi'
   },
   {
     name: 'Biyomon', 
+    image: 'placeholder.jpeg',
     series: 'Adventure 01',
     level: 'Rookie', 
-    attribute: 'Male', 
-    type: 'Lizard', 
+    attribute: 'Vaccine', 
+    type: 'Bird', 
     canDigivolve: true,
-    tamer: 'Taichi "Tai" Kamiya'
+    tamer: 'Sora Takenouchi'
+  },
+  {
+    name: 'Birdramon', 
+    image: 'placeholder.jpeg',
+    series: 'Adventure 01',
+    level: 'Champion', 
+    attribute: 'Vaccine', 
+    type: 'Giant Bird', 
+    canDigivolve: true,
+    tamer: 'Sora Takenouchi'
+  },
+  {
+    name: 'Garudamon', 
+    image: 'placeholder.jpeg',
+    series: 'Adventure 01',
+    level: 'Ultimate', 
+    attribute: 'Vaccine', 
+    type: 'Birdman', 
+    canDigivolve: true,
+    tamer: 'Sora Takenouchi'
+  },
+  {
+    name: 'Hououmon', 
+    image: 'placeholder.jpeg',
+    series: 'Adventure 01',
+    level: 'Mega', 
+    attribute: 'Vaccine', 
+    type: 'Holy Beast', 
+    canDigivolve: false,
+    tamer: 'Sora Takenouchi'
+  },
+  {
+    name: 'Pabumon', 
+    image: 'placeholder.jpeg',
+    series: 'Adventure 01',
+    level: 'Fresh', 
+    attribute: 'None', 
+    type: 'Slime', 
+    canDigivolve: true,
+    tamer: 'Koushiro "Izzy" Izumi'
+  },
+  {
+    name: 'Motimon', 
+    image: 'placeholder.jpeg',
+    series: 'Adventure 01',
+    level: 'In-Training', 
+    attribute: 'Data', 
+    type: 'Lesser', 
+    canDigivolve: true,
+    tamer: 'Koushiro "Izzy" Izumi'
   },
   {
     name: 'Tentomon', 
+    image: 'placeholder.jpeg',
     series: 'Adventure 01',
     level: 'Rookie', 
-    attribute: 'Male', 
-    type: 'Lizard', 
+    attribute: 'Vaccine/Virus', 
+    type: 'Insectoid', 
     canDigivolve: true,
-    tamer: 'Taichi "Tai" Kamiya'
+    tamer: 'Koushiro "Izzy" Izumi'
+  },
+  {
+    name: 'Kabuterimon', 
+    image: 'placeholder.jpeg',
+    series: 'Adventure 01',
+    level: 'Champion', 
+    attribute: 'Vaccine', 
+    type: 'Insectoid', 
+    canDigivolve: true,
+    tamer: 'Koushiro "Izzy" Izumi'
+  },
+  {
+    name: 'MegaKabuterimon', 
+    image: 'placeholder.jpeg',
+    series: 'Adventure 01',
+    level: 'Ultimate', 
+    attribute: 'Vaccine', 
+    type: 'Insectoid', 
+    canDigivolve: true,
+    tamer: 'Koushiro "Izzy" Izumi'
+  },
+  {
+    name: 'HerculesKabuterimon', 
+    image: 'placeholder.jpeg',
+    series: 'Adventure 01',
+    level: 'Mega', 
+    attribute: 'Vaccine', 
+    type: 'Insectoid', 
+    canDigivolve: false,
+    tamer: 'Koushiro "Izzy" Izumi'
+  },
+  {
+    name: 'Yuramon', 
+    image: 'placeholder.jpeg',
+    series: 'Adventure 01',
+    level: 'Fresh', 
+    attribute: 'None', 
+    type: 'Seed', 
+    canDigivolve: true,
+    tamer: 'Mimi Tachikawa'
+  },
+  {
+    name: 'Tanemon', 
+    image: 'placeholder.jpeg',
+    series: 'Adventure 01',
+    level: 'In-Training', 
+    attribute: 'Data', 
+    type: 'Lesser/Bulb', 
+    canDigivolve: true,
+    tamer: 'Mimi Tachikawa'
   },
   {
     name: 'Palmon', 
+    image: 'placeholder.jpeg',
     series: 'Adventure 01',
     level: 'Rookie', 
-    attribute: 'Male', 
-    type: 'Lizard', 
+    attribute: 'Vaccine', 
+    type: 'Vegetation', 
     canDigivolve: true,
-    tamer: 'Taichi "Tai" Kamiya'
+    tamer: 'Mimi Tachikawa'
+  },
+  {
+    name: 'Togemon', 
+    image: 'placeholder.jpeg',
+    series: 'Adventure 01',
+    level: 'Champion', 
+    attribute: 'Virus', 
+    type: 'Vegetation', 
+    canDigivolve: true,
+    tamer: 'Mimi Tachikawa'
+  },
+  {
+    name: 'Lillymon', 
+    image: 'placeholder.jpeg',
+    series: 'Adventure 01',
+    level: 'Ultimate', 
+    attribute: 'Data', 
+    type: 'Fairy', 
+    canDigivolve: true,
+    tamer: 'Mimi Tachikawa'
+  },
+  {
+    name: 'Rosemon', 
+    image: 'placeholder.jpeg',
+    series: 'Adventure 01',
+    level: 'Mega', 
+    attribute: 'Data', 
+    type: 'Queen of Flowers', 
+    canDigivolve: true,
+    tamer: 'Mimi Tachikawa'
+  },
+  {
+    name: 'Pichimon', 
+    image: 'placeholder.jpeg',
+    series: 'Adventure 01',
+    level: 'Fresh', 
+    attribute: 'None', 
+    type: 'Slime', 
+    canDigivolve: true,
+    tamer: 'Joe Kido'
+  },
+  {
+    name: 'Bukamon', 
+    image: 'placeholder.jpeg',
+    series: 'Adventure 01',
+    level: 'In-Training', 
+    attribute: 'Data', 
+    type: 'Lesser', 
+    canDigivolve: true,
+    tamer: 'Joe Kido'
   },
   {
     name: 'Gomamon', 
+    image: 'placeholder.jpeg',
     series: 'Adventure 01',
     level: 'Rookie', 
-    attribute: 'Male', 
-    type: 'Lizard', 
+    attribute: 'Vaccine', 
+    type: 'Sea Animal', 
     canDigivolve: true,
-    tamer: 'Taichi "Tai" Kamiya'
+    tamer: 'Joe Kido'
+  },
+  {
+    name: 'Ikkakumon', 
+    image: 'placeholder.jpeg',
+    series: 'Adventure 01',
+    level: 'Champion', 
+    attribute: 'Vaccine', 
+    type: 'Sea Animal', 
+    canDigivolve: true,
+    tamer: 'Joe Kido'
+  },
+  {
+    name: 'Zudomon', 
+    image: 'placeholder.jpeg',
+    series: 'Adventure 01',
+    level: 'Ultimate', 
+    attribute: 'Vaccine', 
+    type: 'Sea Animal', 
+    canDigivolve: true,
+    tamer: 'Joe Kido'
+  },
+  {
+    name: 'Vikemon', 
+    image: 'placeholder.jpeg',
+    series: 'Adventure 01',
+    level: 'Mega', 
+    attribute: 'Vaccine', 
+    type: 'Beast Man', 
+    canDigivolve: false,
+    tamer: 'Joe Kido'
+  },
+  {
+    name: 'Poyomon', 
+    image: 'placeholder.jpeg',
+    series: 'Adventure 01',
+    level: 'Fresh', 
+    attribute: 'None', 
+    type: 'Slime', 
+    canDigivolve: true,
+    tamer: 'Takeru "T.K." Takaishi'
+  },
+  {
+    name: 'Tokomon', 
+    image: 'placeholder.jpeg',
+    series: 'Adventure 01',
+    level: 'In-Training', 
+    attribute: 'Data', 
+    type: 'Lesser', 
+    canDigivolve: true,
+    tamer: 'Takeru "T.K." Takaishi'
   },
   {
     name: 'Patamon', 
+    image: 'placeholder.jpeg',
     series: 'Adventure 01',
     level: 'Rookie', 
-    attribute: 'Male', 
-    type: 'Lizard', 
+    attribute: 'Vaccine', 
+    type: 'Mammal', 
     canDigivolve: true,
-    tamer: 'Taichi "Tai" Kamiya'
+    tamer: 'Takeru "T.K." Takaishi'
+  },
+  {
+    name: 'Angemon', 
+    image: 'placeholder.jpeg',
+    series: 'Adventure 01',
+    level: 'Champion', 
+    attribute: 'Vaccine', 
+    type: 'Angel', 
+    canDigivolve: true,
+    tamer: 'Takeru "T.K." Takaishi'
+  },
+  {
+    name: 'MagnaAngemon', 
+    image: 'placeholder.jpeg',
+    series: 'Adventure 01',
+    level: 'Ultimate', 
+    attribute: 'Vaccine', 
+    type: 'Archangel', 
+    canDigivolve: true,
+    tamer: 'Takeru "T.K." Takaishi'
+  },
+  {
+    name: 'Seraphimon', 
+    image: 'placeholder.jpeg',
+    series: 'Adventure 01',
+    level: 'Mega', 
+    attribute: 'Vaccine', 
+    type: 'Seraph', 
+    canDigivolve: false,
+    tamer: 'Takeru "T.K." Takaishi'
   },
   {
     name: 'Veemon', 
-    series: 'Adventure 01',
+    image: 'placeholder.jpeg',
+    series: 'Adventure 02',
     level: 'Rookie', 
-    attribute: 'Male', 
-    type: 'Lizard', 
+    attribute: 'Vaccine', 
+    type: 'Dragon', 
     canDigivolve: true,
-    tamer: 'Taichi "Tai" Kamiya'
+    tamer: 'Davis Motomiya'
   },
   {
     name: 'Wormmon', 
+    image: 'placeholder.jpeg',
     series: 'Adventure 01',
     level: 'Rookie', 
     attribute: 'Male', 
@@ -154,6 +461,7 @@ const digimons = [
   },
   {
     name: 'Hawkmon', 
+    image: 'placeholder.jpeg',
     series: 'Adventure 01',
     level: 'Rookie', 
     attribute: 'Male', 
@@ -163,6 +471,7 @@ const digimons = [
   },
   {
     name: 'Armadillomon', 
+    image: 'placeholder.jpeg',
     series: 'Adventure 01',
     level: 'Rookie', 
     attribute: 'Male', 
@@ -172,6 +481,7 @@ const digimons = [
   },
   {
     name: 'Monodramon', 
+    image: 'placeholder.jpeg',
     series: 'Adventure 01',
     level: 'Rookie', 
     attribute: 'Male', 
@@ -181,6 +491,7 @@ const digimons = [
   },
   {
     name: 'Meicoomon', 
+    image: 'placeholder.jpeg',
     series: 'Adventure 01',
     level: 'Rookie', 
     attribute: 'Male', 
@@ -190,6 +501,7 @@ const digimons = [
   },
   {
     name: 'Meramon', 
+    image: 'placeholder.jpeg',
     series: 'Adventure 01',
     level: 'Rookie', 
     attribute: 'Male', 
@@ -199,6 +511,7 @@ const digimons = [
   },
   {
     name: 'Andromon', 
+    image: 'placeholder.jpeg',
     series: 'Adventure 01',
     level: 'Rookie', 
     attribute: 'Male', 
@@ -208,6 +521,7 @@ const digimons = [
   },
   {
     name: 'Monzaemon', 
+    image: 'placeholder.jpeg',
     series: 'Adventure 01',
     level: 'Rookie', 
     attribute: 'Male', 
@@ -217,6 +531,7 @@ const digimons = [
   },
   {
     name: 'Leomon', 
+    image: 'placeholder.jpeg',
     series: 'Adventure 01',
     level: 'Rookie', 
     attribute: 'Male', 
@@ -226,6 +541,7 @@ const digimons = [
   },
   {
     name: 'Frigimon', 
+    image: 'placeholder.jpeg',
     series: 'Adventure 01',
     level: 'Rookie', 
     attribute: 'Male', 
@@ -235,6 +551,7 @@ const digimons = [
   },
   {
     name: 'Mojyamon', 
+    image: 'placeholder.jpeg',
     series: 'Adventure 01',
     level: 'Rookie', 
     attribute: 'Male', 
@@ -244,6 +561,7 @@ const digimons = [
   },
   {
     name: 'Centarumon', 
+    image: 'placeholder.jpeg',
     series: 'Adventure 01',
     level: 'Rookie', 
     attribute: 'Male', 
@@ -253,6 +571,7 @@ const digimons = [
   },
   {
     name: 'Elecmon', 
+    image: 'placeholder.jpeg',
     series: 'Adventure 01',
     level: 'Rookie', 
     attribute: 'Male', 
@@ -262,6 +581,7 @@ const digimons = [
   },
   {
     name: 'Whamon', 
+    image: 'placeholder.jpeg',
     series: 'Adventure 01',
     level: 'Rookie', 
     attribute: 'Male', 
@@ -271,6 +591,7 @@ const digimons = [
   },
   {
     name: 'Piximon', 
+    image: 'placeholder.jpeg',
     series: 'Adventure 01',
     level: 'Rookie', 
     attribute: 'Male', 
@@ -280,6 +601,7 @@ const digimons = [
   },
   {
     name: 'Wizardmon', 
+    image: 'placeholder.jpeg',
     series: 'Adventure 01',
     level: 'Rookie', 
     attribute: 'Male', 
@@ -289,6 +611,7 @@ const digimons = [
   },
   {
     name: 'Hackmon', 
+    image: 'placeholder.jpeg',
     series: 'Adventure 01',
     level: 'Rookie', 
     attribute: 'Male', 
@@ -298,6 +621,7 @@ const digimons = [
   },
   {
     name: 'Devimon', 
+    image: 'placeholder.jpeg',
     series: 'Adventure 01',
     level: 'Rookie', 
     attribute: 'Male', 
@@ -307,6 +631,7 @@ const digimons = [
   },
   {
     name: 'Etemon', 
+    image: 'placeholder.jpeg',
     series: 'Adventure 01',
     level: 'Rookie', 
     attribute: 'Male', 
@@ -316,6 +641,7 @@ const digimons = [
   },
   {
     name: 'Parrotmon', 
+    image: 'placeholder.jpeg',
     series: 'Adventure 01',
     level: 'Rookie', 
     attribute: 'Male', 
@@ -325,6 +651,7 @@ const digimons = [
   },
   {
     name: 'Kokatorimon', 
+    image: 'placeholder.jpeg',
     series: 'Adventure 01',
     level: 'Rookie', 
     attribute: 'Male', 
@@ -334,6 +661,7 @@ const digimons = [
   },
   {
     name: 'Myotismon', 
+    image: 'placeholder.jpeg',
     series: 'Adventure 01',
     level: 'Rookie', 
     attribute: 'Male', 
@@ -343,6 +671,7 @@ const digimons = [
   },
   {
     name: 'DemiDevimon', 
+    image: 'placeholder.jpeg',
     series: 'Adventure 01',
     level: 'Rookie', 
     attribute: 'Male', 
@@ -352,6 +681,7 @@ const digimons = [
   },
   {
     name: 'Dokugumon', 
+    image: 'placeholder.jpeg',
     series: 'Adventure 01',
     level: 'Rookie', 
     attribute: 'Male', 
@@ -361,6 +691,7 @@ const digimons = [
   },
   {
     name: 'Phantomon', 
+    image: 'placeholder.jpeg',
     series: 'Adventure 01',
     level: 'Rookie', 
     attribute: 'Male', 
@@ -370,6 +701,7 @@ const digimons = [
   },
   {
     name: 'SkullMeramon', 
+    image: 'placeholder.jpeg',
     series: 'Adventure 01',
     level: 'Rookie', 
     attribute: 'Male', 

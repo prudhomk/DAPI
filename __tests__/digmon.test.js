@@ -11,6 +11,7 @@ describe('digimon routes', () => {
 
   const digimon = { 
     name: 'Agumon',
+    image: './agumon.webp',
     series: 'Adventure 01',
     level: 'Rookie',
     attribute: 'bingo',
@@ -33,6 +34,7 @@ describe('digimon routes', () => {
 
     const secondDigimon = { 
       name: 'Terriermon',
+      image: './bigchungus.webp',
       series: 'Adventure 02',
       level: 'Rookie',
       attribute: 'bingo',
@@ -64,6 +66,7 @@ describe('digimon routes', () => {
 
     const secondDigimon = await DigitalMonster.create({ 
       name: 'Terriermon',
+      image: './funnyjoke.webp',
       series: 'Adventure 02',
       level: 'Rookie',
       attribute: 'bingo',
@@ -84,6 +87,7 @@ describe('digimon routes', () => {
   test('edit a digimon', async () => {
     const wrongDigimon = await DigitalMonster.create({
       name: 'Gabumon',
+      image: './originalname.webp',
       series: 'Adventure 01',
       level: 'Rookie',
       attribute: 'bingo',
@@ -103,6 +107,7 @@ describe('digimon routes', () => {
   test('delete a digimon', async () => {
     const pokemon = await DigitalMonster.create({
       name: 'Pikachu',
+      image: './pikachu.jpeg',
       series: 'Pokemon',
       level: '6',
       attribute: 'bingo',
