@@ -1,9 +1,81 @@
 const digimons = [
   {
+    name: 'Botamon', 
+    series: 'Adventure 01',
+    level: 'Fresh', 
+    attribute: 'None', 
+    type: 'Slime', 
+    canDigivolve: true,
+    tamer: 'Taichi "Tai" Kamiya'
+  },
+  {
+    name: 'Koromon', 
+    series: 'Adventure 01',
+    level: 'In-Training', 
+    attribute: 'Data', 
+    type: 'Lesser', 
+    canDigivolve: true,
+    tamer: 'Taichi "Tai" Kamiya'
+  },
+  {
     name: 'Agumon', 
     series: 'Adventure 01',
     level: 'Rookie', 
-    gender: 'Male', 
+    attribute: 'Vaccine/Virus', 
+    type: 'Lizard', 
+    canDigivolve: true,
+    tamer: 'Taichi "Tai" Kamiya'
+  },
+  {
+    name: 'Greymon', 
+    series: 'Adventure 01',
+    level: 'Champion', 
+    attribute: 'Vaccine', 
+    type: 'Dinosaur', 
+    canDigivolve: true,
+    tamer: 'Taichi "Tai" Kamiya'
+  },
+  {
+    name: 'SkullGreymon', 
+    series: 'Adventure 01',
+    level: 'Ultimate', 
+    attribute: 'Virus', 
+    type: 'Skeleton', 
+    canDigivolve: true,
+    tamer: 'Taichi "Tai" Kamiya'
+  },
+  {
+    name: 'MetalGreymon', 
+    series: 'Adventure 01',
+    level: 'Champion', 
+    attribute: 'Vaccine/Virus', 
+    type: 'Cyborg', 
+    canDigivolve: true,
+    tamer: 'Taichi "Tai" Kamiya'
+  },
+  {
+    name: 'WarGreymon', 
+    series: 'Adventure 01',
+    level: 'Mega', 
+    attribute: 'Vaccine', 
+    type: 'Dragon', 
+    canDigivolve: true,
+    tamer: 'Taichi "Tai" Kamiya'
+  },
+  {
+    name: 'WarGreymon X', 
+    series: 'Adventure 01',
+    level: 'Mega', 
+    attribute: 'Male', 
+    type: 'Lizard', 
+    canDigivolve: true,
+    tamer: 'Taichi "Tai" Kamiya'
+  },
+  {
+    name: 'Omnimon', 
+    series: 'Adventure 01',
+    level: 'Mega', 
+    attribute: 'Male', 
     type: 'Lizard', 
     canDigivolve: true,
     tamer: 'Taichi "Tai" Kamiya'
@@ -12,7 +84,7 @@ const digimons = [
     name: 'Gabumon', 
     series: 'Adventure 01',
     level: 'Rookie', 
-    gender: 'Male', 
+    attribute: 'Male', 
     type: 'Lizard', 
     canDigivolve: true,
     tamer: 'Taichi "Tai" Kamiya'
@@ -21,7 +93,7 @@ const digimons = [
     name: 'Biyomon', 
     series: 'Adventure 01',
     level: 'Rookie', 
-    gender: 'Male', 
+    attribute: 'Male', 
     type: 'Lizard', 
     canDigivolve: true,
     tamer: 'Taichi "Tai" Kamiya'
@@ -30,7 +102,7 @@ const digimons = [
     name: 'Tentomon', 
     series: 'Adventure 01',
     level: 'Rookie', 
-    gender: 'Male', 
+    attribute: 'Male', 
     type: 'Lizard', 
     canDigivolve: true,
     tamer: 'Taichi "Tai" Kamiya'
@@ -39,7 +111,7 @@ const digimons = [
     name: 'Palmon', 
     series: 'Adventure 01',
     level: 'Rookie', 
-    gender: 'Male', 
+    attribute: 'Male', 
     type: 'Lizard', 
     canDigivolve: true,
     tamer: 'Taichi "Tai" Kamiya'
@@ -48,7 +120,7 @@ const digimons = [
     name: 'Gomamon', 
     series: 'Adventure 01',
     level: 'Rookie', 
-    gender: 'Male', 
+    attribute: 'Male', 
     type: 'Lizard', 
     canDigivolve: true,
     tamer: 'Taichi "Tai" Kamiya'
@@ -57,7 +129,7 @@ const digimons = [
     name: 'Patamon', 
     series: 'Adventure 01',
     level: 'Rookie', 
-    gender: 'Male', 
+    attribute: 'Male', 
     type: 'Lizard', 
     canDigivolve: true,
     tamer: 'Taichi "Tai" Kamiya'
@@ -66,7 +138,7 @@ const digimons = [
     name: 'Veemon', 
     series: 'Adventure 01',
     level: 'Rookie', 
-    gender: 'Male', 
+    attribute: 'Male', 
     type: 'Lizard', 
     canDigivolve: true,
     tamer: 'Taichi "Tai" Kamiya'
@@ -75,7 +147,7 @@ const digimons = [
     name: 'Wormmon', 
     series: 'Adventure 01',
     level: 'Rookie', 
-    gender: 'Male', 
+    attribute: 'Male', 
     type: 'Lizard', 
     canDigivolve: true,
     tamer: 'Taichi "Tai" Kamiya'
@@ -84,7 +156,7 @@ const digimons = [
     name: 'Hawkmon', 
     series: 'Adventure 01',
     level: 'Rookie', 
-    gender: 'Male', 
+    attribute: 'Male', 
     type: 'Lizard', 
     canDigivolve: true,
     tamer: 'Taichi "Tai" Kamiya'
@@ -93,7 +165,7 @@ const digimons = [
     name: 'Armadillomon', 
     series: 'Adventure 01',
     level: 'Rookie', 
-    gender: 'Male', 
+    attribute: 'Male', 
     type: 'Lizard', 
     canDigivolve: true,
     tamer: 'Taichi "Tai" Kamiya'
@@ -102,7 +174,7 @@ const digimons = [
     name: 'Monodramon', 
     series: 'Adventure 01',
     level: 'Rookie', 
-    gender: 'Male', 
+    attribute: 'Male', 
     type: 'Lizard', 
     canDigivolve: true,
     tamer: 'Taichi "Tai" Kamiya'
@@ -111,7 +183,7 @@ const digimons = [
     name: 'Meicoomon', 
     series: 'Adventure 01',
     level: 'Rookie', 
-    gender: 'Male', 
+    attribute: 'Male', 
     type: 'Lizard', 
     canDigivolve: true,
     tamer: 'Taichi "Tai" Kamiya'
@@ -120,7 +192,7 @@ const digimons = [
     name: 'Meramon', 
     series: 'Adventure 01',
     level: 'Rookie', 
-    gender: 'Male', 
+    attribute: 'Male', 
     type: 'Lizard', 
     canDigivolve: true,
     tamer: 'Taichi "Tai" Kamiya'
@@ -129,7 +201,7 @@ const digimons = [
     name: 'Andromon', 
     series: 'Adventure 01',
     level: 'Rookie', 
-    gender: 'Male', 
+    attribute: 'Male', 
     type: 'Lizard', 
     canDigivolve: true,
     tamer: 'Taichi "Tai" Kamiya'
@@ -138,7 +210,7 @@ const digimons = [
     name: 'Monzaemon', 
     series: 'Adventure 01',
     level: 'Rookie', 
-    gender: 'Male', 
+    attribute: 'Male', 
     type: 'Lizard', 
     canDigivolve: true,
     tamer: 'Taichi "Tai" Kamiya'
@@ -147,7 +219,7 @@ const digimons = [
     name: 'Leomon', 
     series: 'Adventure 01',
     level: 'Rookie', 
-    gender: 'Male', 
+    attribute: 'Male', 
     type: 'Lizard', 
     canDigivolve: true,
     tamer: 'Taichi "Tai" Kamiya'
@@ -156,7 +228,7 @@ const digimons = [
     name: 'Frigimon', 
     series: 'Adventure 01',
     level: 'Rookie', 
-    gender: 'Male', 
+    attribute: 'Male', 
     type: 'Lizard', 
     canDigivolve: true,
     tamer: 'Taichi "Tai" Kamiya'
@@ -165,7 +237,7 @@ const digimons = [
     name: 'Mojyamon', 
     series: 'Adventure 01',
     level: 'Rookie', 
-    gender: 'Male', 
+    attribute: 'Male', 
     type: 'Lizard', 
     canDigivolve: true,
     tamer: 'Taichi "Tai" Kamiya'
@@ -174,7 +246,7 @@ const digimons = [
     name: 'Centarumon', 
     series: 'Adventure 01',
     level: 'Rookie', 
-    gender: 'Male', 
+    attribute: 'Male', 
     type: 'Lizard', 
     canDigivolve: true,
     tamer: 'Taichi "Tai" Kamiya'
@@ -183,7 +255,7 @@ const digimons = [
     name: 'Elecmon', 
     series: 'Adventure 01',
     level: 'Rookie', 
-    gender: 'Male', 
+    attribute: 'Male', 
     type: 'Lizard', 
     canDigivolve: true,
     tamer: 'Taichi "Tai" Kamiya'
@@ -192,7 +264,7 @@ const digimons = [
     name: 'Whamon', 
     series: 'Adventure 01',
     level: 'Rookie', 
-    gender: 'Male', 
+    attribute: 'Male', 
     type: 'Lizard', 
     canDigivolve: true,
     tamer: 'Taichi "Tai" Kamiya'
@@ -201,7 +273,7 @@ const digimons = [
     name: 'Piximon', 
     series: 'Adventure 01',
     level: 'Rookie', 
-    gender: 'Male', 
+    attribute: 'Male', 
     type: 'Lizard', 
     canDigivolve: true,
     tamer: 'Taichi "Tai" Kamiya'
@@ -210,97 +282,97 @@ const digimons = [
     name: 'Wizardmon', 
     series: 'Adventure 01',
     level: 'Rookie', 
-    gender: 'Male', 
+    attribute: 'Male', 
     type: 'Lizard', 
     canDigivolve: true,
     tamer: 'Taichi "Tai" Kamiya'
   },
   {
-    name: 'Agumon', 
+    name: 'Hackmon', 
     series: 'Adventure 01',
     level: 'Rookie', 
-    gender: 'Male', 
+    attribute: 'Male', 
     type: 'Lizard', 
     canDigivolve: true,
     tamer: 'Taichi "Tai" Kamiya'
   },
   {
-    name: 'Agumon', 
+    name: 'Devimon', 
     series: 'Adventure 01',
     level: 'Rookie', 
-    gender: 'Male', 
+    attribute: 'Male', 
     type: 'Lizard', 
     canDigivolve: true,
     tamer: 'Taichi "Tai" Kamiya'
   },
   {
-    name: 'Agumon', 
+    name: 'Etemon', 
     series: 'Adventure 01',
     level: 'Rookie', 
-    gender: 'Male', 
+    attribute: 'Male', 
     type: 'Lizard', 
     canDigivolve: true,
     tamer: 'Taichi "Tai" Kamiya'
   },
   {
-    name: 'Agumon', 
+    name: 'Parrotmon', 
     series: 'Adventure 01',
     level: 'Rookie', 
-    gender: 'Male', 
+    attribute: 'Male', 
     type: 'Lizard', 
     canDigivolve: true,
     tamer: 'Taichi "Tai" Kamiya'
   },
   {
-    name: 'Agumon', 
+    name: 'Kokatorimon', 
     series: 'Adventure 01',
     level: 'Rookie', 
-    gender: 'Male', 
+    attribute: 'Male', 
     type: 'Lizard', 
     canDigivolve: true,
     tamer: 'Taichi "Tai" Kamiya'
   },
   {
-    name: 'Agumon', 
+    name: 'Myotismon', 
     series: 'Adventure 01',
     level: 'Rookie', 
-    gender: 'Male', 
+    attribute: 'Male', 
     type: 'Lizard', 
     canDigivolve: true,
     tamer: 'Taichi "Tai" Kamiya'
   },
   {
-    name: 'Agumon', 
+    name: 'DemiDevimon', 
     series: 'Adventure 01',
     level: 'Rookie', 
-    gender: 'Male', 
+    attribute: 'Male', 
     type: 'Lizard', 
     canDigivolve: true,
     tamer: 'Taichi "Tai" Kamiya'
   },
   {
-    name: 'Agumon', 
+    name: 'Dokugumon', 
     series: 'Adventure 01',
     level: 'Rookie', 
-    gender: 'Male', 
+    attribute: 'Male', 
     type: 'Lizard', 
     canDigivolve: true,
     tamer: 'Taichi "Tai" Kamiya'
   },
   {
-    name: 'Agumon', 
+    name: 'Phantomon', 
     series: 'Adventure 01',
     level: 'Rookie', 
-    gender: 'Male', 
+    attribute: 'Male', 
     type: 'Lizard', 
     canDigivolve: true,
     tamer: 'Taichi "Tai" Kamiya'
   },
   {
-    name: 'Agumon', 
+    name: 'SkullMeramon', 
     series: 'Adventure 01',
     level: 'Rookie', 
-    gender: 'Male', 
+    attribute: 'Male', 
     type: 'Lizard', 
     canDigivolve: true,
     tamer: 'Taichi "Tai" Kamiya'

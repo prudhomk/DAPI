@@ -13,7 +13,7 @@ describe('digimon routes', () => {
     name: 'Agumon',
     series: 'Adventure 01',
     level: 'Rookie',
-    gender: 'male',
+    attribute: 'bingo',
     type: 'Lizard',
     canDigivolve: true,
     tamer: 'Taichi "Tai" Kamiya'
@@ -35,7 +35,7 @@ describe('digimon routes', () => {
       name: 'Terriermon',
       series: 'Adventure 02',
       level: 'Rookie',
-      gender: 'none',
+      attribute: 'bingo',
       type: 'Animal',
       canDigivolve: true,
       tamer: 'Willis, Henry Wong'
@@ -66,7 +66,7 @@ describe('digimon routes', () => {
       name: 'Terriermon',
       series: 'Adventure 02',
       level: 'Rookie',
-      gender: 'none',
+      attribute: 'bingo',
       type: 'Animal',
       canDigivolve: true,
       tamer: 'Willis, Henry Wong'
@@ -86,7 +86,7 @@ describe('digimon routes', () => {
       name: 'Gabumon',
       series: 'Adventure 01',
       level: 'Rookie',
-      gender: 'none',
+      attribute: 'bingo',
       type: 'Animal',
       canDigivolve: true,
       tamer: 'Yamato "Matt" Ishida'
@@ -105,7 +105,7 @@ describe('digimon routes', () => {
       name: 'Pikachu',
       series: 'Pokemon',
       level: '6',
-      gender: 'male',
+      attribute: 'bingo',
       type: 'Electric Mouse',
       canDigivolve: false,
       tamer: 'Ash Ketchum'

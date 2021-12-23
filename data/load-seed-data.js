@@ -8,10 +8,10 @@ async function runDigimon() {
     await Promise.all(
       digimons.map(digi => {
         return client.query(`
-        INSERT INTO digimon (name, series, level, gender, type, can_digivolve, tamer)
+        INSERT INTO digimon (name, series, level, attribute, type, can_digivolve, tamer)
         VALUES ($1, $2, $3, $4, $5, $6, $7)
         `,
-        [digi.name, digi.series, digi.level, digi.gender, digi.type, digi.canDigivolve, digi.tamer]);
+        [digi.name, digi.series, digi.level, digi.attribute, digi.type, digi.canDigivolve, digi.tamer]);
         
       })
     );
