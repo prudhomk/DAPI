@@ -77,7 +77,7 @@ const digimons = [
     attribute: 'Vaccine', 
     type: 'Lizard', 
     canDigivolve: false,
-    tamer: 'Taichi "Tai" Kamiya'
+    tamer: 'Taichi "Tai" Kamiya, Yamato "Matt" Ishida'
   },
   {
     name: 'Punimon', 
@@ -420,6 +420,16 @@ const digimons = [
     tamer: 'Takeru "T.K." Takaishi'
   },
   {
+    name: 'Pegasusmon', 
+    image: 'placeholder.jpeg',
+    series: 'Adventure 02',
+    level: 'Armor: Digi-Egg of Hope', 
+    attribute: 'Vaccine', 
+    type: 'Holy Beast', 
+    canDigivolve: true,
+    tamer: 'Takeru "T.K." Takaishi'
+  },
+  {
     name: 'MagnaAngemon', 
     image: 'placeholder.jpeg',
     series: 'Adventure 01',
@@ -440,6 +450,26 @@ const digimons = [
     tamer: 'Takeru "T.K." Takaishi'
   },
   {
+    name: 'Chibomon', 
+    image: 'placeholder.jpeg',
+    series: 'Adventure 02',
+    level: 'Fresh', 
+    attribute: 'None', 
+    type: 'Slime', 
+    canDigivolve: true,
+    tamer: 'Davis Motomiya'
+  },
+  {
+    name: 'DemiVeemon', 
+    image: 'placeholder.jpeg',
+    series: 'Adventure 02',
+    level: 'In-Training', 
+    attribute: 'None', 
+    type: 'Baby Dragon', 
+    canDigivolve: true,
+    tamer: 'Davis Motomiya'
+  },
+  {
     name: 'Veemon', 
     image: 'placeholder.jpeg',
     series: 'Adventure 02',
@@ -450,34 +480,324 @@ const digimons = [
     tamer: 'Davis Motomiya'
   },
   {
+    name: 'ExVeemon', 
+    image: 'placeholder.jpeg',
+    series: 'Adventure 02',
+    level: 'Champion', 
+    attribute: 'Vaccine', 
+    type: 'Mythical Dragon', 
+    canDigivolve: true,
+    tamer: 'Davis Motomiya'
+  },
+  {
+    name: 'Flamedramon', 
+    image: 'placeholder.jpeg',
+    series: 'Adventure 02',
+    level: 'Armor: Digi-Egg of Courage', 
+    attribute: 'Vaccine', 
+    type: 'Dragon Man', 
+    canDigivolve: false,
+    tamer: 'Davis Motomiya'
+  },
+  {
+    name: 'Raidramon', 
+    image: 'placeholder.jpeg',
+    series: 'Adventure 02',
+    level: 'Armor: Digi-Egg of Friendship', 
+    attribute: 'Vaccine', 
+    type: 'Animal', 
+    canDigivolve: false,
+    tamer: 'Davis Motomiya'
+  },
+  {
+    name: 'Palidramon', 
+    image: 'placeholder.jpeg',
+    series: 'Adventure 02',
+    level: 'Ultimate', 
+    attribute: 'Vaccine', 
+    type: 'Dragon Humanoid', 
+    canDigivolve: true,
+    tamer: 'Davis Motomiya, Ken Ichijouji'
+  },
+  {
+    name: 'Imperialdramon Dragon Mode', 
+    image: 'placeholder.jpeg',
+    series: 'Adventure 02',
+    level: 'Mega', 
+    attribute: 'Vaccine/Virus', 
+    type: 'Ancient Dragon', 
+    canDigivolve: true,
+    tamer: 'Davis Motomiya, Ken Ichijouji'
+  },
+  {
+    name: 'Imperialdramon Fighter Mode', 
+    image: 'placeholder.jpeg',
+    series: 'Adventure 02',
+    level: 'Mega', 
+    attribute: 'Vaccine/Virus', 
+    type: 'Ancient Dragon Man', 
+    canDigivolve: true,
+    tamer: 'Davis Motomiya, Ken Ichijouji'
+  },
+  {
+    name: 'Imperialdramon Paladin Mode', 
+    image: 'placeholder.jpeg',
+    series: 'Adventure 02',
+    level: 'Mega', 
+    attribute: 'Vaccine', 
+    type: 'Ancient Dragon', 
+    canDigivolve: false,
+    tamer: 'Davis Motomiya, Ken Ichijouji'
+  },
+  {
+    name: 'Magnamon', 
+    image: 'placeholder.jpeg',
+    series: 'Adventure 02',
+    level: 'Mega/Armor: Digi-Egg of Miracles', 
+    attribute: 'Vaccine', 
+    type: 'Holy Knight', 
+    canDigivolve: false,
+    tamer: 'Davis Motomiya'
+  },
+  {
+    name: 'Leafmon', 
+    image: 'placeholder.jpeg',
+    series: 'Adventure 02',
+    level: 'Fresh', 
+    attribute: 'None', 
+    type: 'Slime', 
+    canDigivolve: true,
+    tamer: 'Ken Ichijouji'
+  },
+  {
+    name: 'Minomon', 
+    image: 'placeholder.jpeg',
+    series: 'Adventure 02',
+    level: 'In-Training', 
+    attribute: 'None', 
+    type: 'Larva', 
+    canDigivolve: true,
+    tamer: 'Ken Ichijouji'
+  },
+  {
     name: 'Wormmon', 
     image: 'placeholder.jpeg',
-    series: 'Adventure 01',
+    series: 'Adventure 02',
     level: 'Rookie', 
-    attribute: 'Male', 
-    type: 'Lizard', 
+    attribute: 'Virus/Vaccine', 
+    type: 'Larva', 
     canDigivolve: true,
-    tamer: 'Taichi "Tai" Kamiya'
+    tamer: 'Ken Ichijouji'
+  },
+  {
+    name: 'Stingmon', 
+    image: 'placeholder.jpeg',
+    series: 'Adventure 02',
+    level: 'Champion', 
+    attribute: 'Virus', 
+    type: 'Insectoid', 
+    canDigivolve: true,
+    tamer: 'Ken Ichijouji'
+  },
+  {
+    name: 'Pururumon', 
+    image: 'placeholder.jpeg',
+    series: 'Adventure 02',
+    level: 'Fresh', 
+    attribute: 'None', 
+    type: 'Slime', 
+    canDigivolve: true,
+    tamer: 'Yolei Inoue'
+  },
+  {
+    name: 'Poromon', 
+    image: 'placeholder.jpeg',
+    series: 'Adventure 02',
+    level: 'In-Training', 
+    attribute: 'None', 
+    type: 'Mini Bird', 
+    canDigivolve: true,
+    tamer: 'Yolei Inoue'
   },
   {
     name: 'Hawkmon', 
     image: 'placeholder.jpeg',
-    series: 'Adventure 01',
+    series: 'Adventure 02',
     level: 'Rookie', 
-    attribute: 'Male', 
-    type: 'Lizard', 
+    attribute: 'Data', 
+    type: 'Bird', 
     canDigivolve: true,
-    tamer: 'Taichi "Tai" Kamiya'
+    tamer: 'Yolei Inoue'
+  },
+  {
+    name: 'Halsemon', 
+    image: 'placeholder.jpeg',
+    series: 'Adventure 02',
+    level: 'Armor: Digi-Egg of Love', 
+    attribute: 'Data', 
+    type: 'Bird', 
+    canDigivolve: true,
+    tamer: 'Yolei Inoue'
+  },
+  {
+    name: 'Shurimon', 
+    image: 'placeholder.jpeg',
+    series: 'Adventure 02',
+    level: 'Armor: Digi-Egg of Sincerity', 
+    attribute: 'Data', 
+    type: 'Mutant', 
+    canDigivolve: true,
+    tamer: 'Yolei Inoue'
+  },
+  {
+    name: 'Aquilamon', 
+    image: 'placeholder.jpeg',
+    series: 'Adventure 02',
+    level: 'Champion', 
+    attribute: 'Data', 
+    type: 'Giant Bird', 
+    canDigivolve: true,
+    tamer: 'Yolei Inoue'
+  },
+  {
+    name: 'Silphymon', 
+    image: 'placeholder.jpeg',
+    series: 'Adventure 02',
+    level: 'Ultimate', 
+    attribute: 'Data', 
+    type: 'Beast Man', 
+    canDigivolve: true,
+    tamer: 'Yolei Inoue and Kari Kamiya'
+  },
+  {
+    name: 'Tsubumon', 
+    image: 'placeholder.jpeg',
+    series: 'Adventure 02',
+    level: 'Fresh', 
+    attribute: 'None', 
+    type: 'Slime', 
+    canDigivolve: true,
+    tamer: 'Cody Hida'
+  },
+  {
+    name: 'Upamon', 
+    image: 'placeholder.jpeg',
+    series: 'Adventure 02',
+    level: 'In-Training', 
+    attribute: 'Vaccine', 
+    type: 'Amphibian', 
+    canDigivolve: true,
+    tamer: 'Cody Hida'
   },
   {
     name: 'Armadillomon', 
     image: 'placeholder.jpeg',
-    series: 'Adventure 01',
+    series: 'Adventure 02',
     level: 'Rookie', 
-    attribute: 'Male', 
-    type: 'Lizard', 
+    attribute: 'Vaccine', 
+    type: 'Mammal', 
     canDigivolve: true,
-    tamer: 'Taichi "Tai" Kamiya'
+    tamer: 'Cody Hida'
+  },
+  {
+    name: 'Submarimon', 
+    image: 'placeholder.jpeg',
+    series: 'Adventure 02',
+    level: 'Armor: Digi-Egg of Reliability', 
+    attribute: 'Vaccine', 
+    type: 'Sea Animal', 
+    canDigivolve: true,
+    tamer: 'Cody Hida'
+  },
+  {
+    name: 'Digmon', 
+    image: 'placeholder.jpeg',
+    series: 'Adventure 02',
+    level: 'Armor: Digi-Egg of Knowledge', 
+    attribute: 'Vaccine', 
+    type: 'Insectoid', 
+    canDigivolve: true,
+    tamer: 'Cody Hida'
+  },
+  {
+    name: 'Ankylomon', 
+    image: 'placeholder.jpeg',
+    series: 'Adventure 02',
+    level: 'Champion', 
+    attribute: 'Vaccine', 
+    type: 'Dinosaur', 
+    canDigivolve: true,
+    tamer: 'Cody Hida'
+  },
+  {
+    name: 'Shakkoumon', 
+    image: 'placeholder.jpeg',
+    series: 'Adventure 02',
+    level: 'Ultimate', 
+    attribute: 'Vaccine', 
+    type: 'Mutant', 
+    canDigivolve: true,
+    tamer: 'Cody Hida, Takeru "T.K" Takaishi'
+  },
+  {
+    name: 'YukimiBotamon', 
+    image: 'placeholder.jpeg',
+    series: 'Adventure 02',
+    level: 'Fresh', 
+    attribute: 'None', 
+    type: 'Slime', 
+    canDigivolve: true,
+    tamer: 'Kari Kamiya'
+  },
+  {
+    name: 'Nyaromon', 
+    image: 'placeholder.jpeg',
+    series: 'Adventure 01',
+    level: 'In-Training', 
+    attribute: 'None', 
+    type: 'Lesser', 
+    canDigivolve: true,
+    tamer: 'Kari Kamiya'
+  },
+  {
+    name: 'Salamon', 
+    image: 'placeholder.jpeg',
+    series: 'Adventure 02',
+    level: 'Rookie', 
+    attribute: 'Vaccine', 
+    type: 'Mammal', 
+    canDigivolve: true,
+    tamer: 'Kari Kamiya'
+  },
+  {
+    name: 'Gatomon', 
+    image: 'placeholder.jpeg',
+    series: 'Adventure 02',
+    level: 'Champion', 
+    attribute: 'Vaccine', 
+    type: 'Holy Beast', 
+    canDigivolve: true,
+    tamer: 'Kari Kamiya'
+  },
+  {
+    name: 'Nefertimon', 
+    image: 'placeholder.jpeg',
+    series: 'Adventure 02',
+    level: 'Armor: Digi-Egg of Light', 
+    attribute: 'Vaccine', 
+    type: 'Holy Beast', 
+    canDigivolve: true,
+    tamer: 'Kari Kamiya'
+  },
+  {
+    name: 'Angewomon', 
+    image: 'placeholder.jpeg',
+    series: 'Adventure 02',
+    level: 'Ultimate', 
+    attribute: 'Vaccine', 
+    type: 'Archangel', 
+    canDigivolve: true,
+    tamer: 'Kari Kamiya'
   },
   {
     name: 'Monodramon', 
