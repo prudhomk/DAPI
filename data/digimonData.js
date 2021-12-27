@@ -1070,6 +1070,16 @@ const digimons = [
     tamer: 'Kazu Shioda'
   },
   {
+    name: 'Andromon', 
+    image: 'placeholder.jpeg',
+    series: 'Adventure 01, Adventure 02, Tamers',
+    level: 'Ultimate', 
+    attribute: 'Vaccine', 
+    type: 'Cyborg', 
+    canDigivolve: true,
+    tamer: 'Kazu Shioda'
+  },
+  {
     name: 'MarineAngemon', 
     image: 'placeholder.jpeg',
     series: 'Tamers',
@@ -1650,94 +1660,44 @@ const digimons = [
     tamer: 'None'
   },
   {
-    name: 'Monodramon', 
-    image: 'placeholder.jpeg',
-    series: 'Adventure 01',
-    level: 'Rookie', 
-    attribute: 'Male', 
-    type: 'Lizard', 
-    canDigivolve: true,
-    tamer: 'Taichi "Tai" Kamiya'
-  },
-  {
-    name: 'Meicoomon', 
-    image: 'placeholder.jpeg',
-    series: 'Adventure 01',
-    level: 'Rookie', 
-    attribute: 'Male', 
-    type: 'Lizard', 
-    canDigivolve: true,
-    tamer: 'Taichi "Tai" Kamiya'
-  },
-  {
     name: 'Meramon', 
     image: 'placeholder.jpeg',
-    series: 'Adventure 01',
-    level: 'Rookie', 
-    attribute: 'Male', 
-    type: 'Lizard', 
+    series: 'Adventure 01, Adventure 02, Tamers',
+    level: 'Champion', 
+    attribute: 'Vaccine', 
+    type: 'Flame', 
     canDigivolve: true,
-    tamer: 'Taichi "Tai" Kamiya'
-  },
-  {
-    name: 'Andromon', 
-    image: 'placeholder.jpeg',
-    series: 'Adventure 01',
-    level: 'Rookie', 
-    attribute: 'Male', 
-    type: 'Lizard', 
-    canDigivolve: true,
-    tamer: 'Taichi "Tai" Kamiya'
+    tamer: 'Mina'
   },
   {
     name: 'Monzaemon', 
     image: 'placeholder.jpeg',
-    series: 'Adventure 01',
-    level: 'Rookie', 
-    attribute: 'Male', 
-    type: 'Lizard', 
+    series: 'Adventure 01, Adventure 02, Frontier',
+    level: 'Ultimate', 
+    attribute: 'Vaccine', 
+    type: 'Puppet', 
     canDigivolve: true,
-    tamer: 'Taichi "Tai" Kamiya'
-  },
-  {
-    name: 'Leomon', 
-    image: 'placeholder.jpeg',
-    series: 'Adventure 01',
-    level: 'Rookie', 
-    attribute: 'Male', 
-    type: 'Lizard', 
-    canDigivolve: true,
-    tamer: 'Taichi "Tai" Kamiya'
+    tamer: 'None'
   },
   {
     name: 'Frigimon', 
     image: 'placeholder.jpeg',
     series: 'Adventure 01',
-    level: 'Rookie', 
-    attribute: 'Male', 
-    type: 'Lizard', 
+    level: 'Champion', 
+    attribute: 'Vaccine', 
+    type: 'Ice-Snow', 
     canDigivolve: true,
-    tamer: 'Taichi "Tai" Kamiya'
-  },
-  {
-    name: 'Mojyamon', 
-    image: 'placeholder.jpeg',
-    series: 'Adventure 01',
-    level: 'Rookie', 
-    attribute: 'Male', 
-    type: 'Lizard', 
-    canDigivolve: true,
-    tamer: 'Taichi "Tai" Kamiya'
+    tamer: 'Steve'
   },
   {
     name: 'Centarumon', 
     image: 'placeholder.jpeg',
     series: 'Adventure 01',
-    level: 'Rookie', 
-    attribute: 'Male', 
-    type: 'Lizard', 
+    level: 'Champion', 
+    attribute: 'Data', 
+    type: 'Beast Man', 
     canDigivolve: true,
-    tamer: 'Taichi "Tai" Kamiya'
+    tamer: 'Maria'
   },
   {
     name: 'Elecmon', 
@@ -1753,131 +1713,761 @@ const digimons = [
     name: 'Whamon', 
     image: 'placeholder.jpeg',
     series: 'Adventure 01',
-    level: 'Rookie', 
-    attribute: 'Male', 
-    type: 'Lizard', 
+    level: 'Ultimate', 
+    attribute: 'Vaccine', 
+    type: 'Aquatic Mammal', 
     canDigivolve: true,
-    tamer: 'Taichi "Tai" Kamiya'
+    tamer: 'None'
   },
   {
     name: 'Piximon', 
     image: 'placeholder.jpeg',
     series: 'Adventure 01',
-    level: 'Rookie', 
-    attribute: 'Male', 
-    type: 'Lizard', 
+    level: 'Ultimate', 
+    attribute: 'Vaccine/Data', 
+    type: 'Pixie', 
     canDigivolve: true,
-    tamer: 'Taichi "Tai" Kamiya'
+    tamer: 'Miyamoto Miyoko'
   },
   {
     name: 'Wizardmon', 
     image: 'placeholder.jpeg',
     series: 'Adventure 01',
-    level: 'Rookie', 
-    attribute: 'Male', 
-    type: 'Lizard', 
+    level: 'Champion', 
+    attribute: 'Data', 
+    type: 'Wizard', 
     canDigivolve: true,
-    tamer: 'Taichi "Tai" Kamiya'
+    tamer: 'None'
   },
   {
-    name: 'Hackmon', 
+    name: 'Datamon', 
     image: 'placeholder.jpeg',
     series: 'Adventure 01',
-    level: 'Rookie', 
-    attribute: 'Male', 
-    type: 'Lizard', 
-    canDigivolve: true,
-    tamer: 'Taichi "Tai" Kamiya'
-  },
-  {
-    name: 'Devimon', 
-    image: 'placeholder.jpeg',
-    series: 'Adventure 01',
-    level: 'Rookie', 
-    attribute: 'Male', 
-    type: 'Lizard', 
-    canDigivolve: true,
-    tamer: 'Taichi "Tai" Kamiya'
-  },
-  {
-    name: 'Etemon', 
-    image: 'placeholder.jpeg',
-    series: 'Adventure 01',
-    level: 'Rookie', 
-    attribute: 'Male', 
-    type: 'Lizard', 
-    canDigivolve: true,
-    tamer: 'Taichi "Tai" Kamiya'
-  },
-  {
-    name: 'Parrotmon', 
-    image: 'placeholder.jpeg',
-    series: 'Adventure 01',
-    level: 'Rookie', 
-    attribute: 'Male', 
-    type: 'Lizard', 
-    canDigivolve: true,
-    tamer: 'Taichi "Tai" Kamiya'
-  },
-  {
-    name: 'Kokatorimon', 
-    image: 'placeholder.jpeg',
-    series: 'Adventure 01',
-    level: 'Rookie', 
-    attribute: 'Male', 
-    type: 'Lizard', 
-    canDigivolve: true,
-    tamer: 'Taichi "Tai" Kamiya'
-  },
-  {
-    name: 'Myotismon', 
-    image: 'placeholder.jpeg',
-    series: 'Adventure 01',
-    level: 'Rookie', 
-    attribute: 'Male', 
-    type: 'Lizard', 
-    canDigivolve: true,
-    tamer: 'Taichi "Tai" Kamiya'
+    level: 'Ultimate', 
+    attribute: 'Virus', 
+    type: 'Machine', 
+    canDigivolve: false,
+    tamer: 'None'
   },
   {
     name: 'DemiDevimon', 
     image: 'placeholder.jpeg',
     series: 'Adventure 01',
     level: 'Rookie', 
-    attribute: 'Male', 
-    type: 'Lizard', 
+    attribute: 'Virus', 
+    type: 'Mini Devil', 
     canDigivolve: true,
-    tamer: 'Taichi "Tai" Kamiya'
+    tamer: 'None'
+  },
+  {
+    name: 'Devimon', 
+    image: 'placeholder.jpeg',
+    series: 'Adventure 01',
+    level: 'Champion', 
+    attribute: 'Virus', 
+    type: 'Fallen Angel', 
+    canDigivolve: true,
+    tamer: 'Neo Saiba'
+  },
+  {
+    name: 'Etemon', 
+    image: 'placeholder.jpeg',
+    series: 'Adventure 01',
+    level: 'Ultimate', 
+    attribute: 'Virus', 
+    type: 'Puppet', 
+    canDigivolve: true,
+    tamer: 'None'
+  },
+  {
+    name: 'MetalEtemon', 
+    image: 'placeholder.jpeg',
+    series: 'Adventure 01',
+    level: 'Mega', 
+    attribute: 'Virus/Vaccine', 
+    type: 'Cyborg', 
+    canDigivolve: true,
+    tamer: 'None'
+  },
+  {
+    name: 'Parrotmon', 
+    image: 'placeholder.jpeg',
+    series: 'Adventure 01',
+    level: 'Ultimate', 
+    attribute: 'Vaccine', 
+    type: 'Giant Bird', 
+    canDigivolve: true,
+    tamer: 'None'
+  },
+  {
+    name: 'Kokatorimon', 
+    image: 'placeholder.jpeg',
+    series: 'Adventure 01',
+    level: 'Champion', 
+    attribute: 'Vaccine/Data', 
+    type: 'Giant Bird', 
+    canDigivolve: true,
+    tamer: 'None'
   },
   {
     name: 'Dokugumon', 
     image: 'placeholder.jpeg',
     series: 'Adventure 01',
-    level: 'Rookie', 
-    attribute: 'Male', 
-    type: 'Lizard', 
+    level: 'Champion', 
+    attribute: 'Virus', 
+    type: 'Insectoid', 
     canDigivolve: true,
-    tamer: 'Taichi "Tai" Kamiya'
+    tamer: 'None'
+  },
+  {
+    name: 'Arukenimon', 
+    image: 'placeholder.jpeg',
+    series: 'Adventure 02',
+    level: 'Ultimate', 
+    attribute: 'Virus', 
+    type: 'Demon Beast', 
+    canDigivolve: true,
+    tamer: 'None'
   },
   {
     name: 'Phantomon', 
     image: 'placeholder.jpeg',
     series: 'Adventure 01',
-    level: 'Rookie', 
-    attribute: 'Male', 
-    type: 'Lizard', 
+    level: 'Ultimate', 
+    attribute: 'Virus', 
+    type: 'Ghost', 
     canDigivolve: true,
-    tamer: 'Taichi "Tai" Kamiya'
+    tamer: 'None'
   },
   {
     name: 'SkullMeramon', 
     image: 'placeholder.jpeg',
     series: 'Adventure 01',
-    level: 'Rookie', 
-    attribute: 'Male', 
-    type: 'Lizard', 
+    level: 'Ultimate', 
+    attribute: 'Data', 
+    type: 'Flame', 
     canDigivolve: true,
-    tamer: 'Taichi "Tai" Kamiya'
+    tamer: 'None'
+  },
+  {
+    name: 'Bakemon', 
+    image: 'placeholder.jpeg',
+    series: 'Adventure 01',
+    level: 'Champion', 
+    attribute: 'Virus', 
+    type: 'Ghost', 
+    canDigivolve: true,
+    tamer: 'None'
+  },
+  {
+    name: 'MegaSeadramon', 
+    image: 'placeholder.jpeg',
+    series: 'Adventure 01',
+    level: 'Ultimate', 
+    attribute: 'Data', 
+    type: 'Sea Animal', 
+    canDigivolve: true,
+    tamer: 'None'
+  },
+  {
+    name: 'MetalSeadramon', 
+    image: 'placeholder.jpeg',
+    series: 'Adventure 01',
+    level: 'Mega', 
+    attribute: 'Data', 
+    type: 'Cyborg', 
+    canDigivolve: true,
+    tamer: 'None'
+  },
+  {
+    name: 'Tuskmon', 
+    image: 'placeholder.jpeg',
+    series: 'Adventure 01',
+    level: 'Champion', 
+    attribute: 'Virus', 
+    type: 'Dinosaur', 
+    canDigivolve: false,
+    tamer: 'None'
+  },
+  {
+    name: 'Snimon', 
+    image: 'placeholder.jpeg',
+    series: 'Adventure 01',
+    level: 'Champion', 
+    attribute: 'Vaccine', 
+    type: 'Insectoid', 
+    canDigivolve: false,
+    tamer: 'Sonya'
+  },
+  {
+    name: 'Raremon', 
+    image: 'placeholder.jpeg',
+    series: 'Adventure 01',
+    level: 'Champion', 
+    attribute: 'Virus', 
+    type: 'Undead', 
+    canDigivolve: true,
+    tamer: 'None'
+  },
+  {
+    name: 'RareRaaremon', 
+    image: 'placeholder.jpeg',
+    series: 'Adventure 01',
+    level: 'Champion', 
+    attribute: 'Virus', 
+    type: 'Undead', 
+    canDigivolve: true,
+    tamer: 'None'
+  },
+  {
+    name: 'Garbagemon', 
+    image: 'placeholder.jpeg',
+    series: 'Adventure 01',
+    level: 'Ultimate', 
+    attribute: 'Virus', 
+    type: 'Mutant', 
+    canDigivolve: false,
+    tamer: 'None'
+  },
+  {
+    name: 'Chuumon', 
+    image: 'placeholder.jpeg',
+    series: 'Adventure 01',
+    level: 'Rookie', 
+    attribute: 'Virus', 
+    type: 'Animal', 
+    canDigivolve: true,
+    tamer: 'None'
+  },
+  {
+    name: 'Ogremon', 
+    image: 'placeholder.jpeg',
+    series: 'Adventure 01',
+    level: 'Champion', 
+    attribute: 'Virus', 
+    type: 'Ogre', 
+    canDigivolve: true,
+    tamer: 'Neo Saiba'
+  },
+  {
+    name: 'Vademon', 
+    image: 'placeholder.jpeg',
+    series: 'Adventure 01',
+    level: 'Ultimate', 
+    attribute: 'Virus', 
+    type: 'Alien', 
+    canDigivolve: true,
+    tamer: 'None'
+  },
+  {
+    name: 'Gotsumon', 
+    image: 'placeholder.jpeg',
+    series: 'Adventure 01',
+    level: 'Rookie', 
+    attribute: 'Data', 
+    type: 'Mineral', 
+    canDigivolve: true,
+    tamer: 'Rosa'
+  },
+  {
+    name: 'Golemon', 
+    image: 'placeholder.jpeg',
+    series: 'Adventure 01',
+    level: 'Champion', 
+    attribute: 'Data', 
+    type: 'Mineral', 
+    canDigivolve: true,
+    tamer: 'None'
+  },
+  {
+    name: 'Sukamon', 
+    image: 'placeholder.jpeg',
+    series: 'Adventure 01, Adventure 02',
+    level: 'Champion', 
+    attribute: 'Virus', 
+    type: 'Mutant', 
+    canDigivolve: true,
+    tamer: 'None'
+  },
+  {
+    name: 'Nanimon', 
+    image: 'placeholder.jpeg',
+    series: 'Adventure 01',
+    level: 'Champion', 
+    attribute: 'Virus', 
+    type: 'Invader', 
+    canDigivolve: true,
+    tamer: 'None'
+  },
+  {
+    name: 'PlatinumSukamon', 
+    image: 'placeholder.jpeg',
+    series: 'World',
+    level: 'Champion', 
+    attribute: 'Virus/Vaccine', 
+    type: 'Mutant', 
+    canDigivolve: false,
+    tamer: 'None'
+  },
+  {
+    name: 'Gesomon', 
+    image: 'placeholder.jpeg',
+    series: 'Adventure 01',
+    level: 'Champion', 
+    attribute: 'Virus', 
+    type: 'Mollusk', 
+    canDigivolve: true,
+    tamer: 'None'
+  },
+  {
+    name: 'DarkTyrannomon', 
+    image: 'placeholder.jpeg',
+    series: 'Adventure 01',
+    level: 'Champion', 
+    attribute: 'Virus', 
+    type: 'Dinosaur', 
+    canDigivolve: true,
+    tamer: 'None'
+  },
+  {
+    name: 'Mammothmon', 
+    image: 'placeholder.jpeg',
+    series: 'Adventure 01',
+    level: 'Ultimate', 
+    attribute: 'Vaccine', 
+    type: 'Ancient Beast', 
+    canDigivolve: true,
+    tamer: 'None'
+  },
+  {
+    name: 'Floramon', 
+    image: 'placeholder.jpeg',
+    series: 'Adventure 01, Adventure 02',
+    level: 'Rookie', 
+    attribute: 'Data', 
+    type: 'Plant', 
+    canDigivolve: true,
+    tamer: 'Catherine Deneuve'
+  },
+  {
+    name: 'Kiwimon', 
+    image: 'placeholder.jpeg',
+    series: 'Adventure 01',
+    level: 'Ultimate', 
+    attribute: 'Data', 
+    type: 'Ancient Bird', 
+    canDigivolve: true,
+    tamer: 'None'
+  },
+  {
+    name: 'Blossomon', 
+    image: 'placeholder.jpeg',
+    series: 'Adventure 01, Adventure 02',
+    level: 'Ultimate', 
+    attribute: 'Data', 
+    type: 'Plant', 
+    canDigivolve: true,
+    tamer: 'None'
+  },
+  {
+    name: 'Woodmon', 
+    image: 'placeholder.jpeg',
+    series: 'Adventure 01',
+    level: 'Champion', 
+    attribute: 'Virus', 
+    type: 'Plant', 
+    canDigivolve: true,
+    tamer: 'None'
+  },
+  {
+    name: 'Cherrymon', 
+    image: 'placeholder.jpeg',
+    series: 'Adventure 01',
+    level: 'Ultimate', 
+    attribute: 'Virus/Vaccine', 
+    type: 'Plant', 
+    canDigivolve: true,
+    tamer: 'None'
+  },
+  {
+    name: 'Puppetmon', 
+    image: 'placeholder.jpeg',
+    series: 'Adventure 01',
+    level: 'Mega', 
+    attribute: 'Virus', 
+    type: 'Puppet', 
+    canDigivolve: true,
+    tamer: 'None'
+  },
+  {
+    name: 'WaruMonzaemon', 
+    image: 'placeholder.jpeg',
+    series: 'Adventure 01',
+    level: 'Ultimate', 
+    attribute: 'Virus', 
+    type: 'Puppet', 
+    canDigivolve: true,
+    tamer: 'None'
+  },
+  {
+    name: 'Scorpiomon', 
+    image: 'placeholder.jpeg',
+    series: 'Adventure 01',
+    level: 'Ultimate', 
+    attribute: 'Data', 
+    type: 'Ancient Crustacean', 
+    canDigivolve: false,
+    tamer: 'None'
+  },
+  {
+    name: 'Piedmon', 
+    image: 'placeholder.jpeg',
+    series: 'Adventure 01',
+    level: 'Mega', 
+    attribute: 'Virus', 
+    type: 'Demon Man', 
+    canDigivolve: true,
+    tamer: 'None'
+  },
+  {
+    name: 'Machinedramon', 
+    image: 'placeholder.jpeg',
+    series: 'Adventure 01',
+    level: 'Mega', 
+    attribute: 'Virus', 
+    type: 'Machine/Cyborg', 
+    canDigivolve: true,
+    tamer: 'None'
+  },
+  {
+    name: 'Myotismon', 
+    image: 'placeholder.jpeg',
+    series: 'Adventure 01',
+    level: 'Ultimate', 
+    attribute: 'Virus', 
+    type: 'Undead', 
+    canDigivolve: true,
+    tamer: 'None'
+  },
+  {
+    name: 'LadyDevimon', 
+    image: 'placeholder.jpeg',
+    series: 'Adventure 01, Adventure 02',
+    level: 'Ultimate', 
+    attribute: 'Virus', 
+    type: 'Fallen Angel', 
+    canDigivolve: true,
+    tamer: 'None'
+  },
+  {
+    name: 'Apocalymon', 
+    image: 'placeholder.jpeg',
+    series: 'Adventure 01',
+    level: 'Mega', 
+    attribute: 'Unidentified', 
+    type: 'Unidentified', 
+    canDigivolve: true,
+    tamer: 'None'
+  },
+  {
+    name: 'Daemon', 
+    image: 'placeholder.jpeg',
+    series: 'Adventure 02',
+    level: 'Mega', 
+    attribute: 'Virus', 
+    type: 'Demon Lord', 
+    canDigivolve: true,
+    tamer: 'None'
+  },
+  {
+    name: 'SkullSatamon', 
+    image: 'placeholder.jpeg',
+    series: 'Adventure 02',
+    level: 'Ultimate', 
+    attribute: 'Virus', 
+    type: 'Undead', 
+    canDigivolve: true,
+    tamer: 'Neo Saiba'
+  },
+  {
+    name: 'MarineDevimon', 
+    image: 'placeholder.jpeg',
+    series: 'Adventure 02',
+    level: 'Ultimate', 
+    attribute: 'Virus', 
+    type: 'Aquatic Beast Man', 
+    canDigivolve: true,
+    tamer: 'None'
+  },
+  {
+    name: 'Mummymon', 
+    image: 'placeholder.jpeg',
+    series: 'Adventure 02',
+    level: 'Ultimate', 
+    attribute: 'Virus', 
+    type: 'Undead', 
+    canDigivolve: true,
+    tamer: 'None'
+  },
+  {
+    name: 'Kimeramon', 
+    image: 'placeholder.jpeg',
+    series: 'Adventure 02',
+    level: 'Ultimate', 
+    attribute: 'Data', 
+    type: 'Composite', 
+    canDigivolve: true,
+    tamer: 'Ken Ichijouji'
+  },
+  {
+    name: 'Millenniummon', 
+    image: 'placeholder.jpeg',
+    series: 'Adventure 02',
+    level: 'Mega', 
+    attribute: 'Virus', 
+    type: 'Composite', 
+    canDigivolve: true,
+    tamer: 'None'
+  },
+  {
+    name: 'Kuramon', 
+    image: 'placeholder.jpeg',
+    series: 'Adventure 02',
+    level: 'Fresh', 
+    attribute: 'Unidentified', 
+    type: 'Unidentified', 
+    canDigivolve: true,
+    tamer: 'Willis'
+  },
+  {
+    name: 'Tsumemon', 
+    image: 'placeholder.jpeg',
+    series: 'Adventure 02',
+    level: 'In-Training', 
+    attribute: 'Unidentified', 
+    type: 'Unidentified', 
+    canDigivolve: true,
+    tamer: 'Willis'
+  },
+  {
+    name: 'Keramon', 
+    image: 'placeholder.jpeg',
+    series: 'Adventure 02',
+    level: 'Rookie', 
+    attribute: 'Unidentified', 
+    type: 'Unidentified', 
+    canDigivolve: true,
+    tamer: 'Willis'
+  },
+  {
+    name: 'Chrysalimon', 
+    image: 'placeholder.jpeg',
+    series: 'Adventure 02',
+    level: 'Champion', 
+    attribute: 'Unidentified', 
+    type: 'Unidentified', 
+    canDigivolve: true,
+    tamer: 'Willis'
+  },
+  {
+    name: 'Infermon', 
+    image: 'placeholder.jpeg',
+    series: 'Adventure 02',
+    level: 'Ultimate', 
+    attribute: 'Unidentified', 
+    type: 'Unidentified', 
+    canDigivolve: true,
+    tamer: 'Willis'
+  },
+  {
+    name: 'Diaboromon', 
+    image: 'placeholder.jpeg',
+    series: 'Adventure 02',
+    level: 'Mega', 
+    attribute: 'Unidentified', 
+    type: 'Unidentified', 
+    canDigivolve: true,
+    tamer: 'Willis'
+  },
+  {
+    name: 'Armageddemon', 
+    image: 'placeholder.jpeg',
+    series: 'Adventure 02',
+    level: 'Mega', 
+    attribute: 'Unidentified', 
+    type: 'Unidentified', 
+    canDigivolve: false,
+    tamer: 'None'
+  },
+  {
+    name: 'Ebonwumon', 
+    image: 'placeholder.jpeg',
+    series: 'Adventure 02, Tamers',
+    level: 'Mega', 
+    attribute: 'Vaccine', 
+    type: 'Holy Beast', 
+    canDigivolve: true,
+    tamer: 'None'
+  },
+  {
+    name: 'Zhuqiaomon', 
+    image: 'placeholder.jpeg',
+    series: 'Adventure 02, Tamers',
+    level: 'Mega', 
+    attribute: 'Virus', 
+    type: 'Holy Bird', 
+    canDigivolve: true,
+    tamer: 'None'
+  },
+  {
+    name: 'Azulongmon', 
+    image: 'placeholder.jpeg',
+    series: 'Adventure 02, Tamers',
+    level: 'Mega', 
+    attribute: 'Data', 
+    type: 'Holy Dragon', 
+    canDigivolve: true,
+    tamer: 'None'
+  },
+  {
+    name: 'Baihumon', 
+    image: 'placeholder.jpeg',
+    series: 'Adventure 02, Tamers',
+    level: 'Mega', 
+    attribute: 'Data', 
+    type: 'Holy Beast', 
+    canDigivolve: true,
+    tamer: 'None'
+  },
+  {
+    name: 'Huanglongmon', 
+    image: 'placeholder.jpeg',
+    series: 'Fusion',
+    level: 'Mega', 
+    attribute: 'NO DATA', 
+    type: 'God Beast', 
+    canDigivolve: false,
+    tamer: 'None'
+  },
+  {
+    name: 'Mihiramon', 
+    image: 'placeholder.jpeg',
+    series: 'Tamers',
+    level: 'Ultimate', 
+    attribute: 'Data', 
+    type: 'Holy Beast', 
+    canDigivolve: false,
+    tamer: 'None'
+  },
+  {
+    name: 'Antylamon (Evil)', 
+    image: 'placeholder.jpeg',
+    series: 'Tamers',
+    level: 'Ultimate', 
+    attribute: 'Virus/Data', 
+    type: 'Holy Beast', 
+    canDigivolve: true,
+    tamer: 'None'
+  },
+  {
+    name: 'Majiramon', 
+    image: 'placeholder.jpeg',
+    series: 'Tamers',
+    level: 'Ultimate', 
+    attribute: 'Data', 
+    type: 'Holy Dragon', 
+    canDigivolve: false,
+    tamer: 'None'
+  },
+  {
+    name: 'Sandiramon', 
+    image: 'placeholder.jpeg',
+    series: 'Tamers',
+    level: 'Ultimate', 
+    attribute: 'Virus', 
+    type: 'Holy Beast', 
+    canDigivolve: false,
+    tamer: 'None'
+  },
+  {
+    name: 'Indramon', 
+    image: 'placeholder.jpeg',
+    series: 'Tamers',
+    level: 'Ultimate', 
+    attribute: 'Virus', 
+    type: 'Holy Beast', 
+    canDigivolve: false,
+    tamer: 'None'
+  },
+  {
+    name: 'Pajiramon', 
+    image: 'placeholder.jpeg',
+    series: 'Tamers',
+    level: 'Ultimate', 
+    attribute: 'Virus', 
+    type: 'Holy Beast', 
+    canDigivolve: false,
+    tamer: 'None'
+  },
+  {
+    name: 'Makuramon', 
+    image: 'placeholder.jpeg',
+    series: 'Tamers',
+    level: 'Ultimate', 
+    attribute: 'Data', 
+    type: 'Holy Beast', 
+    canDigivolve: false,
+    tamer: 'None'
+  },
+  {
+    name: 'Sinduramon', 
+    image: 'placeholder.jpeg',
+    series: 'Tamers',
+    level: 'Ultimate', 
+    attribute: 'Data', 
+    type: 'Holy Bird', 
+    canDigivolve: false,
+    tamer: 'None'
+  },
+  {
+    name: 'Caturamon', 
+    image: 'placeholder.jpeg',
+    series: 'Tamers',
+    level: 'Ultimate', 
+    attribute: 'Data', 
+    type: 'Holy Beast', 
+    canDigivolve: false,
+    tamer: 'None'
+  },
+  {
+    name: 'Vikaralamon', 
+    image: 'placeholder.jpeg',
+    series: 'Tamers',
+    level: 'Ultimate', 
+    attribute: 'Vaccine', 
+    type: 'Holy Beast', 
+    canDigivolve: false,
+    tamer: 'None'
+  },
+  {
+    name: 'Kumbhiramon', 
+    image: 'placeholder.jpeg',
+    series: 'Tamers',
+    level: 'Ultimate', 
+    attribute: 'Vaccine', 
+    type: 'Holy Beast', 
+    canDigivolve: false,
+    tamer: 'None'
+  },
+  {
+    name: 'Vajramon', 
+    image: 'placeholder.jpeg',
+    series: 'Tamers',
+    level: 'Ultimate', 
+    attribute: 'Vaccine', 
+    type: 'Holy Beast', 
+    canDigivolve: true,
+    tamer: 'None'
   },
 
 ];
