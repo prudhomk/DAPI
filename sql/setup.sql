@@ -3,9 +3,10 @@ DROP TABLE IF EXISTS digimon, tamers CASCADE;
 CREATE TABLE digimon (
   id BIGINT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
   name TEXT NOT NULL,
+  image TEXT NOT NULL,
   series TEXT NOT NULL,
   level TEXT NOT NULL,
-  gender TEXT NOT NULL,
+  attribute TEXT NOT NULL,
   type TEXT NOT NULL,
   can_digivolve BOOLEAN NOT NULL,
   tamer TEXT NOT NULL
