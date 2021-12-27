@@ -1220,6 +1220,436 @@ const digimons = [
     tamer: 'Jeri Katou'
   },
   {
+    name: 'Flamemon', 
+    image: 'placeholder.jpeg',
+    series: 'Frontier',
+    level: 'Hybrid', 
+    attribute: 'Variable', 
+    type: 'Demon Man', 
+    canDigivolve: true,
+    tamer: 'Takuya Kanbara'
+  },
+  {
+    name: 'Agunimon', 
+    image: 'placeholder.jpeg',
+    series: 'Frontier',
+    level: 'Hybrid', 
+    attribute: 'Variable', 
+    type: 'Demon Man', 
+    canDigivolve: true,
+    tamer: 'Takuya Kanbara'
+  },
+  {
+    name: 'BurningGreymon', 
+    image: 'placeholder.jpeg',
+    series: 'Frontier',
+    level: 'Hybrid', 
+    attribute: 'Variable', 
+    type: 'Demon Dragon', 
+    canDigivolve: true,
+    tamer: 'Takuya Kanbara'
+  },
+  {
+    name: 'Aldamon', 
+    image: 'placeholder.jpeg',
+    series: 'Frontier',
+    level: 'Hybrid', 
+    attribute: 'Variable', 
+    type: 'Demon Man', 
+    canDigivolve: true,
+    tamer: 'Takuya Kanbara'
+  },
+  {
+    name: 'EmperorGreymon', 
+    image: 'placeholder.jpeg',
+    series: 'Frontier',
+    level: 'Hybrid', 
+    attribute: 'Variable', 
+    type: 'Dragon Warrior', 
+    canDigivolve: true,
+    tamer: 'Takuya Kanbara'
+  },
+  {
+    name: 'Susanoomon', 
+    image: 'placeholder.jpeg',
+    series: 'Frontier',
+    level: 'Mega', 
+    attribute: 'Vaccine', 
+    type: 'God Man', 
+    canDigivolve: false,
+    tamer: 'Takuya Kanbara, Koji Minamoto, Zoe Orimoto, J.P. Shibayama, Tommy Himi'
+  },
+  {
+    name: 'AncientGreymon', 
+    image: 'placeholder.jpeg',
+    series: 'Frontier',
+    level: 'Mega', 
+    attribute: 'Vaccine', 
+    type: 'Ancient Dragon', 
+    canDigivolve: false,
+    tamer: 'Takuya Kanbara'
+  },
+  {
+    name: 'Lobomon', 
+    image: 'placeholder.jpeg',
+    series: 'Frontier',
+    level: 'Hybrid', 
+    attribute: 'Variable', 
+    type: 'Warrior', 
+    canDigivolve: true,
+    tamer: 'Koji Minamoto'
+  },
+  {
+    name: 'KendoGarurumon', 
+    image: 'placeholder.jpeg',
+    series: 'Frontier',
+    level: 'Hybrid', 
+    attribute: 'Variable', 
+    type: 'Cyborg', 
+    canDigivolve: true,
+    tamer: 'Koji Minamoto'
+  },
+  {
+    name: 'BeoWolfmon', 
+    image: 'placeholder.jpeg',
+    series: 'Frontier',
+    level: 'Hybrid', 
+    attribute: 'Variable', 
+    type: 'Warrior', 
+    canDigivolve: true,
+    tamer: 'Koji Minamoto'
+  },
+  {
+    name: 'MagnaGarurumon', 
+    image: 'placeholder.jpeg',
+    series: 'Frontier',
+    level: 'Hybrid', 
+    attribute: 'Variable', 
+    type: 'Cyborg', 
+    canDigivolve: true,
+    tamer: 'Koji Minamoto'
+  },
+  {
+    name: 'AncientGarurumon', 
+    image: 'placeholder.jpeg',
+    series: 'Frontier',
+    level: 'Mega', 
+    attribute: 'Data', 
+    type: 'Ancient Beast', 
+    canDigivolve: false,
+    tamer: 'Koji Minamoto'
+  },
+  {
+    name: 'Beetlemon', 
+    image: 'placeholder.jpeg',
+    series: 'Frontier',
+    level: 'Hybrid', 
+    attribute: 'Variable', 
+    type: 'Cyborg', 
+    canDigivolve: true,
+    tamer: 'J.P. Shibayama'
+  },
+  {
+    name: 'MetalKabuterimon', 
+    image: 'placeholder.jpeg',
+    series: 'Frontier',
+    level: 'Hybrid', 
+    attribute: 'Variable', 
+    type: 'Cyborg', 
+    canDigivolve: true,
+    tamer: 'J.P. Shibayama'
+  },
+  {
+    name: 'RhinoKabuterimon', 
+    image: 'placeholder.jpeg',
+    series: 'Frontier',
+    level: 'Hybrid', 
+    attribute: 'Variable', 
+    type: 'Insectoid', 
+    canDigivolve: false,
+    tamer: 'J.P. Shibayama'
+  },
+  {
+    name: 'AncientBeetlemon', 
+    image: 'placeholder.jpeg',
+    series: 'Frontier',
+    level: 'Mega', 
+    attribute: 'Vaccine', 
+    type: 'Ancient Insect', 
+    canDigivolve: false,
+    tamer: 'J.P. Shibayama'
+  },
+  {
+    name: 'Kazemon', 
+    image: 'placeholder.jpeg',
+    series: 'Frontier',
+    level: 'Hybrid', 
+    attribute: 'Variable', 
+    type: 'Fairy', 
+    canDigivolve: true,
+    tamer: 'Zoe Orimoto'
+  },
+  {
+    name: 'Zephyrmon', 
+    image: 'placeholder.jpeg',
+    series: 'Frontier',
+    level: 'Hybrid', 
+    attribute: 'Variable', 
+    type: 'Bird Man', 
+    canDigivolve: true,
+    tamer: 'Zoe Orimoto'
+  },
+  {
+    name: 'JetSilphymon', 
+    image: 'placeholder.jpeg',
+    series: 'Frontier',
+    level: 'Hybrid', 
+    attribute: 'Variable', 
+    type: 'Cyborg', 
+    canDigivolve: false,
+    tamer: 'Zoe Orimoto'
+  },
+  {
+    name: 'AncientKazemon', 
+    image: 'placeholder.jpeg',
+    series: 'Frontier',
+    level: 'Mega', 
+    attribute: 'Vaccine', 
+    type: 'Ancient Bird Man', 
+    canDigivolve: false,
+    tamer: 'Zoe Orimoto'
+  },
+  {
+    name: 'Kumamon', 
+    image: 'placeholder.jpeg',
+    series: 'Frontier',
+    level: 'Hybrid', 
+    attribute: 'Variable', 
+    type: 'Beast Man', 
+    canDigivolve: true,
+    tamer: 'Tommy Himi'
+  },
+  {
+    name: 'Korikakumon', 
+    image: 'placeholder.jpeg',
+    series: 'Frontier',
+    level: 'Hybrid', 
+    attribute: 'Variable', 
+    type: 'Beast', 
+    canDigivolve: true,
+    tamer: 'Tommy Himi'
+  },
+  {
+    name: 'Daipenmon', 
+    image: 'placeholder.jpeg',
+    series: 'Frontier',
+    level: 'Hybrid', 
+    attribute: 'Variable', 
+    type: 'Cyborg', 
+    canDigivolve: false,
+    tamer: 'Tommy Himi'
+  },
+  {
+    name: 'AncientMegatheriummon', 
+    image: 'placeholder.jpeg',
+    series: 'Frontier',
+    level: 'Mega', 
+    attribute: 'Variable', 
+    type: 'Ancient Beast', 
+    canDigivolve: false,
+    tamer: 'Tommy Himi'
+  },
+  {
+    name: 'Loweemon', 
+    image: 'placeholder.jpeg',
+    series: 'Frontier',
+    level: 'Hybrid', 
+    attribute: 'Variable', 
+    type: 'Warrior', 
+    canDigivolve: true,
+    tamer: 'Koichi Kimura'
+  },
+  {
+    name: 'JagerLoweemon', 
+    image: 'placeholder.jpeg',
+    series: 'Frontier',
+    level: 'Hybrid', 
+    attribute: 'Variable', 
+    type: 'Cyborg', 
+    canDigivolve: true,
+    tamer: 'Koichi Kimura'
+  },
+  {
+    name: 'Rhihimon', 
+    image: 'placeholder.jpeg',
+    series: 'Frontier',
+    level: 'Hybrid', 
+    attribute: 'Variable', 
+    type: 'Warrior', 
+    canDigivolve: false,
+    tamer: 'Koichi Kimura'
+  },
+  {
+    name: 'AncientSphinxmon', 
+    image: 'placeholder.jpeg',
+    series: 'Frontier',
+    level: 'Mega', 
+    attribute: 'Virus', 
+    type: 'Acient Myhtical Animal', 
+    canDigivolve: false,
+    tamer: 'Koichi Kimura'
+  },
+  {
+    name: 'Duskmon', 
+    image: 'placeholder.jpeg',
+    series: 'Frontier',
+    level: 'Hybrid', 
+    attribute: 'Variable', 
+    type: 'Demon Man', 
+    canDigivolve: true,
+    tamer: 'Koichi Kimura'
+  },
+  {
+    name: 'Velgemon', 
+    image: 'placeholder.jpeg',
+    series: 'Frontier',
+    level: 'Hybrid', 
+    attribute: 'Variable', 
+    type: 'Giant Bird', 
+    canDigivolve: false,
+    tamer: 'Koichi Kimura'
+  },
+  {
+    name: 'Ranamon', 
+    image: 'placeholder.jpeg',
+    series: 'Frontier',
+    level: 'Hybrid', 
+    attribute: 'Variable', 
+    type: 'Fairy', 
+    canDigivolve: true,
+    tamer: 'None'
+  },
+  {
+    name: 'Calmaramon', 
+    image: 'placeholder.jpeg',
+    series: 'Frontier',
+    level: 'Hybrid', 
+    attribute: 'Variable', 
+    type: 'Aquatic', 
+    canDigivolve: false,
+    tamer: 'None'
+  },
+  {
+    name: 'AncientMermaidmon', 
+    image: 'placeholder.jpeg',
+    series: 'Frontier',
+    level: 'Mega', 
+    attribute: 'Data', 
+    type: 'Ancient Aquatic Beast Man', 
+    canDigivolve: false,
+    tamer: 'None'
+  },
+  {
+    name: 'Arbormon', 
+    image: 'placeholder.jpeg',
+    series: 'Frontier',
+    level: 'Hybrid', 
+    attribute: 'Variable', 
+    type: 'Cyborg', 
+    canDigivolve: true,
+    tamer: 'None'
+  },
+  {
+    name: 'Petaldramon', 
+    image: 'placeholder.jpeg',
+    series: 'Frontier',
+    level: 'Hybrid', 
+    attribute: 'Variable', 
+    type: 'Plant', 
+    canDigivolve: false,
+    tamer: 'None'
+  },
+  {
+    name: 'AncientTroiamon', 
+    image: 'placeholder.jpeg',
+    series: 'Frontier',
+    level: 'Mega', 
+    attribute: 'Data', 
+    type: 'Ancient Plant', 
+    canDigivolve: false,
+    tamer: 'None'
+  },
+  {
+    name: 'Mercurymon', 
+    image: 'placeholder.jpeg',
+    series: 'Frontier',
+    level: 'Hybrid', 
+    attribute: 'Variable', 
+    type: 'Mutant', 
+    canDigivolve: true,
+    tamer: 'None'
+  },
+  {
+    name: 'Sakkakumon', 
+    image: 'placeholder.jpeg',
+    series: 'Frontier',
+    level: 'Hybrid', 
+    attribute: 'Variable', 
+    type: 'Mutant', 
+    canDigivolve: true,
+    tamer: 'None'
+  },
+  {
+    name: 'ShadowSeraphimon', 
+    image: 'placeholder.jpeg',
+    series: 'Frontier',
+    level: 'Mega', 
+    attribute: 'Virus', 
+    type: 'Fallen Angel', 
+    canDigivolve: true,
+    tamer: 'None'
+  },
+  {
+    name: 'AncientWisemon', 
+    image: 'placeholder.jpeg',
+    series: 'Frontier',
+    level: 'Mega', 
+    attribute: 'Virus', 
+    type: 'Ancient Mutant', 
+    canDigivolve: false,
+    tamer: 'None'
+  },
+  {
+    name: 'Grumblemon', 
+    image: 'placeholder.jpeg',
+    series: 'Frontier',
+    level: 'Hybrid', 
+    attribute: 'Variable', 
+    type: 'Ogre', 
+    canDigivolve: true,
+    tamer: 'None'
+  },
+  {
+    name: 'Gigasmon', 
+    image: 'placeholder.jpeg',
+    series: 'Frontier',
+    level: 'Hybrid', 
+    attribute: 'Variable', 
+    type: 'Mineral', 
+    canDigivolve: false,
+    tamer: 'None'
+  },
+  {
+    name: 'AncientVolcanomon', 
+    image: 'placeholder.jpeg',
+    series: 'Frontier',
+    level: 'Mega', 
+    attribute: 'Virus', 
+    type: 'Ancient Mineral', 
+    canDigivolve: false,
+    tamer: 'None'
+  },
+  {
     name: 'Monodramon', 
     image: 'placeholder.jpeg',
     series: 'Adventure 01',
