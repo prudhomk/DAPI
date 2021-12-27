@@ -382,7 +382,7 @@ const digimons = [
   {
     name: 'Poyomon', 
     image: 'placeholder.jpeg',
-    series: 'Adventure 01',
+    series: 'Adventure 01, Adventure 02',
     level: 'Fresh', 
     attribute: 'None', 
     type: 'Slime', 
@@ -392,7 +392,7 @@ const digimons = [
   {
     name: 'Tokomon', 
     image: 'placeholder.jpeg',
-    series: 'Adventure 01',
+    series: 'Adventure 01, Adventure 02',
     level: 'In-Training', 
     attribute: 'Data', 
     type: 'Lesser', 
@@ -402,7 +402,7 @@ const digimons = [
   {
     name: 'Patamon', 
     image: 'placeholder.jpeg',
-    series: 'Adventure 01',
+    series: 'Adventure 01, Adventure 02',
     level: 'Rookie', 
     attribute: 'Vaccine', 
     type: 'Mammal', 
@@ -412,7 +412,7 @@ const digimons = [
   {
     name: 'Angemon', 
     image: 'placeholder.jpeg',
-    series: 'Adventure 01',
+    series: 'Adventure 01, Adventure 02',
     level: 'Champion', 
     attribute: 'Vaccine', 
     type: 'Angel', 
@@ -432,7 +432,7 @@ const digimons = [
   {
     name: 'MagnaAngemon', 
     image: 'placeholder.jpeg',
-    series: 'Adventure 01',
+    series: 'Adventure 01, Adventure 02',
     level: 'Ultimate', 
     attribute: 'Vaccine', 
     type: 'Archangel', 
@@ -798,6 +798,426 @@ const digimons = [
     type: 'Archangel', 
     canDigivolve: true,
     tamer: 'Kari Kamiya'
+  },
+  {
+    name: 'Jyarimon', 
+    image: 'placeholder.jpeg',
+    series: 'Tamers',
+    level: 'Fresh', 
+    attribute: 'None', 
+    type: 'Slime', 
+    canDigivolve: true,
+    tamer: 'Takato Matsuki'
+  },
+  {
+    name: 'Gigimon', 
+    image: 'placeholder.jpeg',
+    series: 'Tamers',
+    level: 'In-Training', 
+    attribute: 'None', 
+    type: 'Lesser', 
+    canDigivolve: true,
+    tamer: 'Takato Matsuki'
+  },
+  {
+    name: 'Guilmon', 
+    image: 'placeholder.jpeg',
+    series: 'Tamers',
+    level: 'Rookie', 
+    attribute: 'Virus', 
+    type: 'Reptile', 
+    canDigivolve: true,
+    tamer: 'Takato Matsuki'
+  },
+  {
+    name: 'Growlmon', 
+    image: 'placeholder.jpeg',
+    series: 'Tamers',
+    level: 'Champion', 
+    attribute: 'Virus', 
+    type: 'Demon Dragon', 
+    canDigivolve: true,
+    tamer: 'Takato Matsuki'
+  },
+  {
+    name: 'WarGrowlmon', 
+    image: 'placeholder.jpeg',
+    series: 'Tamers',
+    level: 'Ultimate', 
+    attribute: 'Virus', 
+    type: 'Cyborg', 
+    canDigivolve: true,
+    tamer: 'Takato Matsuki'
+  },
+  {
+    name: 'Megidramon', 
+    image: 'placeholder.jpeg',
+    series: 'Tamers',
+    level: 'Mega', 
+    attribute: 'Virus', 
+    type: 'Evil Dragon', 
+    canDigivolve: false,
+    tamer: 'Takato Matsuki'
+  },
+  {
+    name: 'Gallantmon', 
+    image: 'placeholder.jpeg',
+    series: 'Tamers',
+    level: 'Mega', 
+    attribute: 'Virus', 
+    type: 'Holy Knight', 
+    canDigivolve: true,
+    tamer: 'Takato Matsuki'
+  },
+  {
+    name: 'Gallantmon Crimson Mode', 
+    image: 'placeholder.jpeg',
+    series: 'Tamers',
+    level: 'Mega', 
+    attribute: 'Virus/Vaccine', 
+    type: 'Holy Knight', 
+    canDigivolve: false,
+    tamer: 'Takato Matsuki'
+  },
+  {
+    name: 'Zerimon', 
+    image: 'placeholder.jpeg',
+    series: 'Tamers',
+    level: 'Fresh', 
+    attribute: 'None', 
+    type: 'Slime', 
+    canDigivolve: true,
+    tamer: 'Henry Wong'
+  },
+  {
+    name: 'Gummymon', 
+    image: 'placeholder.jpeg',
+    series: 'Tamers',
+    level: 'In-Training', 
+    attribute: 'None', 
+    type: 'Lesser', 
+    canDigivolve: true,
+    tamer: 'Henry Wong'
+  },
+  {
+    name: 'Terriermon', 
+    image: 'placeholder.jpeg',
+    series: 'Tamers',
+    level: 'Rookie', 
+    attribute: 'Vaccine', 
+    type: 'Animal', 
+    canDigivolve: true,
+    tamer: 'Henry Wong'
+  },
+  {
+    name: 'Rapidmon (Armor)', 
+    image: 'placeholder.jpeg',
+    series: 'Tamers',
+    level: 'Armor: Digi-Egg of Destiny', 
+    attribute: 'Vaccine', 
+    type: 'Holy Knight', 
+    canDigivolve: false,
+    tamer: 'Henry Wong'
+  },
+  {
+    name: 'Gargomon', 
+    image: 'placeholder.jpeg',
+    series: 'Tamers',
+    level: 'Champion', 
+    attribute: 'Vaccine', 
+    type: 'Beast Man', 
+    canDigivolve: true,
+    tamer: 'Henry Wong'
+  },
+  {
+    name: 'Rapidmon', 
+    image: 'placeholder.jpeg',
+    series: 'Tamers',
+    level: 'Ultimate', 
+    attribute: 'Vaccine', 
+    type: 'Cyborg', 
+    canDigivolve: true,
+    tamer: 'Henry Wong'
+  },
+  {
+    name: 'MegaGargomon', 
+    image: 'placeholder.jpeg',
+    series: 'Tamers',
+    level: 'Mega', 
+    attribute: 'Vaccine', 
+    type: 'Macchine', 
+    canDigivolve: false,
+    tamer: 'Henry Wong'
+  },
+  {
+    name: 'Relemon', 
+    image: 'placeholder.jpeg',
+    series: 'Tamers',
+    level: 'Fresh', 
+    attribute: 'Nonw', 
+    type: 'Slime', 
+    canDigivolve: true,
+    tamer: 'Rika Nonaka'
+  },
+  {
+    name: 'Viximon', 
+    image: 'placeholder.jpeg',
+    series: 'Tamers',
+    level: 'In-Training', 
+    attribute: 'None', 
+    type: 'Lesser', 
+    canDigivolve: true,
+    tamer: 'Rika Nonaka'
+  },
+  {
+    name: 'Renamon', 
+    image: 'placeholder.jpeg',
+    series: 'Tamers',
+    level: 'Rookie', 
+    attribute: 'Data', 
+    type: 'Beast Man', 
+    canDigivolve: true,
+    tamer: 'Rika Nonaka'
+  },
+  {
+    name: 'Kyubimon', 
+    image: 'placeholder.jpeg',
+    series: 'Tamers',
+    level: 'Champion', 
+    attribute: 'Data', 
+    type: 'Bewitching Beast', 
+    canDigivolve: true,
+    tamer: 'Rika Nonaka'
+  },
+  {
+    name: 'Taomon', 
+    image: 'placeholder.jpeg',
+    series: 'Tamers',
+    level: 'Ultimate', 
+    attribute: 'Data', 
+    type: 'Demon Man', 
+    canDigivolve: true,
+    tamer: 'Rika Nonaka'
+  },
+  {
+    name: 'Sakuyamon', 
+    image: 'placeholder.jpeg',
+    series: 'Tamers',
+    level: 'Mega', 
+    attribute: 'Data', 
+    type: 'God Man', 
+    canDigivolve: false,
+    tamer: 'Rika Nonaka'
+  },
+  {
+    name: 'Cyberdramon', 
+    image: 'placeholder.jpeg',
+    series: 'Tamers',
+    level: 'Ultimate', 
+    attribute: 'Vaccine', 
+    type: 'Cyborg', 
+    canDigivolve: true,
+    tamer: 'Ryo Akiyama'
+  },
+  {
+    name: 'Justimon', 
+    image: 'placeholder.jpeg',
+    series: 'Tamers',
+    level: 'Mega', 
+    attribute: 'Vaccine', 
+    type: 'Cyborg', 
+    canDigivolve: false,
+    tamer: 'Ryo Akiyama'
+  },
+  {
+    name: 'MetalKoromon', 
+    image: 'placeholder.jpeg',
+    series: 'Tamers',
+    level: 'Fresh', 
+    attribute: 'None', 
+    type: 'Machine', 
+    canDigivolve: true,
+    tamer: 'Kazu Shioda'
+  },
+  {
+    name: 'Kapurimon', 
+    image: 'placeholder.jpeg',
+    series: 'Tamers',
+    level: 'In-Training', 
+    attribute: 'None', 
+    type: 'Lesser', 
+    canDigivolve: true,
+    tamer: 'Kazu Shioda'
+  },
+  {
+    name: 'Kokuwamon', 
+    image: 'placeholder.jpeg',
+    series: 'Tamers',
+    level: 'Rookie', 
+    attribute: 'Data', 
+    type: 'Machine', 
+    canDigivolve: true,
+    tamer: 'Kazu Shioda'
+  },
+  {
+    name: 'Guardromon', 
+    image: 'placeholder.jpeg',
+    series: 'Tamers',
+    level: 'Champion', 
+    attribute: 'Virus/Data/Vaccine', 
+    type: 'Machine', 
+    canDigivolve: true,
+    tamer: 'Kazu Shioda'
+  },
+  {
+    name: 'MarineAngemon', 
+    image: 'placeholder.jpeg',
+    series: 'Tamers',
+    level: 'Mega', 
+    attribute: 'Vaccine/Virus', 
+    type: 'Pixie', 
+    canDigivolve: false,
+    tamer: 'Kenta Kitagawa'
+  },
+  {
+    name: 'Conomon', 
+    image: 'placeholder.jpeg',
+    series: 'Tamers',
+    level: 'Fresh', 
+    attribute: 'None', 
+    type: 'Slime', 
+    canDigivolve: true,
+    tamer: 'Suzie Wong'
+  },
+  {
+    name: 'Kokomon', 
+    image: 'placeholder.jpeg',
+    series: 'Tamers',
+    level: 'In-Training', 
+    attribute: 'None', 
+    type: 'Lesser', 
+    canDigivolve: true,
+    tamer: 'Suzie Wong'
+  },
+  {
+    name: 'Lopmon', 
+    image: 'placeholder.jpeg',
+    series: 'Tamers',
+    level: 'Rookie', 
+    attribute: 'Data', 
+    type: 'Animal', 
+    canDigivolve: true,
+    tamer: 'Suzie Wong'
+  },
+  {
+    name: 'Wendigomon', 
+    image: 'placeholder.jpeg',
+    series: 'Adventure 02',
+    level: 'Champion', 
+    attribute: 'Virus', 
+    type: 'Beast Man', 
+    canDigivolve: true,
+    tamer: 'Willis'
+  },
+  {
+    name: 'Antylamon', 
+    image: 'placeholder.jpeg',
+    series: 'Tamers',
+    level: 'Ultimate', 
+    attribute: 'Data/Virus', 
+    type: 'Holy Beast', 
+    canDigivolve: true,
+    tamer: 'Suzie Wong'
+  },
+  {
+    name: 'Cherubimon', 
+    image: 'placeholder.jpeg',
+    series: 'Tamers',
+    level: 'Mega', 
+    attribute: 'Vaccine', 
+    type: 'Cherub', 
+    canDigivolve: false,
+    tamer: 'Suzie Wong, Willis'
+  },
+  {
+    name: 'Calumon', 
+    image: 'placeholder.jpeg',
+    series: 'Tamers',
+    level: 'Unknown', 
+    attribute: 'Unknown', 
+    type: 'Unknown', 
+    canDigivolve: false,
+    tamer: 'None'
+  },
+  {
+    name: 'Keemon', 
+    image: 'placeholder.jpeg',
+    series: 'Tamers',
+    level: 'Fresh', 
+    attribute: 'None', 
+    type: 'Slime', 
+    canDigivolve: true,
+    tamer: 'Ai and Mako'
+  },
+  {
+    name: 'Yaamon', 
+    image: 'placeholder.jpeg',
+    series: 'Tamers',
+    level: 'In-Training', 
+    attribute: 'None', 
+    type: 'Lesser', 
+    canDigivolve: true,
+    tamer: 'Ai and Mako'
+  },
+  {
+    name: 'Impmon', 
+    image: 'placeholder.jpeg',
+    series: 'Tamers',
+    level: 'Rookie', 
+    attribute: 'Virus', 
+    type: 'Mini Devil', 
+    canDigivolve: true,
+    tamer: 'Ai and Mako'
+  },
+  {
+    name: 'Beelzemon', 
+    image: 'placeholder.jpeg',
+    series: 'Tamers',
+    level: 'Mega', 
+    attribute: 'Virus', 
+    type: 'Demon Lord', 
+    canDigivolve: true,
+    tamer: 'Ai and Mako'
+  },
+  {
+    name: 'Beelzemon Blast Mode', 
+    image: 'placeholder.jpeg',
+    series: 'Tamers',
+    level: 'Mega', 
+    attribute: 'Virus', 
+    type: 'Demon Lord', 
+    canDigivolve: false,
+    tamer: 'Ai and Mako'
+  },
+  {
+    name: 'Leomon', 
+    image: 'placeholder.jpeg',
+    series: 'Adventure 01, Tamers',
+    level: 'Ultimate', 
+    attribute: 'Vaccine', 
+    type: 'Beast Man', 
+    canDigivolve: true,
+    tamer: 'Jeri Katou'
+  },
+  {
+    name: 'SaberLeomon', 
+    image: 'placeholder.jpeg',
+    series: 'Adventure 01, Tamers',
+    level: 'Mega', 
+    attribute: 'Data', 
+    type: 'Ancient Beast', 
+    canDigivolve: true,
+    tamer: 'Jeri Katou'
   },
   {
     name: 'Monodramon', 
