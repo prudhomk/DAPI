@@ -1,7 +1,7 @@
 const digimons = [
   {
     name: 'Botamon', 
-    image: 'placeholder.jpeg',
+    image: 'botamon.jpg',
     series: 'Adventure 01',
     level: 'Fresh', 
     attribute: 'None', 
@@ -11,7 +11,7 @@ const digimons = [
   },
   {
     name: 'Koromon', 
-    image: 'placeholder.jpeg',
+    image: 'koromon.webp',
     series: 'Adventure 01',
     level: 'In-Training', 
     attribute: 'Data', 
@@ -21,7 +21,7 @@ const digimons = [
   },
   {
     name: 'Agumon', 
-    image: 'placeholder.jpeg',
+    image: 'agumon.webp',
     series: 'Adventure 01',
     level: 'Rookie', 
     attribute: 'Vaccine/Virus', 
@@ -31,7 +31,7 @@ const digimons = [
   },
   {
     name: 'Greymon', 
-    image: 'placeholder.jpeg',
+    image: 'greymon.webp',
     series: 'Adventure 01',
     level: 'Champion', 
     attribute: 'Vaccine', 
@@ -41,7 +41,7 @@ const digimons = [
   },
   {
     name: 'SkullGreymon', 
-    image: 'placeholder.jpeg',
+    image: 'skullGreymon.webp',
     series: 'Adventure 01',
     level: 'Ultimate', 
     attribute: 'Virus', 
@@ -51,7 +51,7 @@ const digimons = [
   },
   {
     name: 'MetalGreymon', 
-    image: 'placeholder.jpeg',
+    image: 'metalGreymon.webp',
     series: 'Adventure 01',
     level: 'Champion', 
     attribute: 'Vaccine/Virus', 
@@ -61,7 +61,7 @@ const digimons = [
   },
   {
     name: 'WarGreymon', 
-    image: 'placeholder.jpeg',
+    image: 'warGreymon.webp',
     series: 'Adventure 01',
     level: 'Mega', 
     attribute: 'Vaccine', 
@@ -71,7 +71,7 @@ const digimons = [
   },
   {
     name: 'Omnimon', 
-    image: 'placeholder.jpeg',
+    image: 'omnimon.webp',
     series: 'Adventure 01',
     level: 'Mega', 
     attribute: 'Vaccine', 
@@ -81,7 +81,7 @@ const digimons = [
   },
   {
     name: 'Punimon', 
-    image: 'placeholder.jpeg',
+    image: 'punimon.webp',
     series: 'Adventure 01',
     level: 'Fresh', 
     attribute: 'None', 
@@ -91,7 +91,7 @@ const digimons = [
   },
   {
     name: 'Tsunomon', 
-    image: 'placeholder.jpeg',
+    image: 'tsunomon.webp',
     series: 'Adventure 01',
     level: 'In-Training', 
     attribute: 'Data', 
@@ -101,7 +101,7 @@ const digimons = [
   },
   {
     name: 'Gabumon', 
-    image: 'placeholder.jpeg',
+    image: 'gabumon.webp',
     series: 'Adventure 01',
     level: 'Rookie', 
     attribute: 'Vaccine/Virus', 
@@ -111,7 +111,7 @@ const digimons = [
   },
   {
     name: 'Garurumon', 
-    image: 'placeholder.jpeg',
+    image: 'garurumon.webp',
     series: 'Adventure 01',
     level: 'Champion', 
     attribute: 'Vaccine/Virus', 
@@ -121,7 +121,7 @@ const digimons = [
   },
   {
     name: 'WereGarurumon', 
-    image: 'placeholder.jpeg',
+    image: 'wereGarurumon.webp',
     series: 'Adventure 01',
     level: 'Ultimate', 
     attribute: 'Vaccine', 
@@ -131,7 +131,7 @@ const digimons = [
   },
   {
     name: 'MetalGarurumon', 
-    image: 'placeholder.jpeg',
+    image: 'metalGarurumon.webp',
     series: 'Adventure 01',
     level: 'Mega', 
     attribute: 'Vaccine', 
@@ -141,7 +141,7 @@ const digimons = [
   },
   {
     name: 'Nyokimon', 
-    image: 'placeholder.jpeg',
+    image: 'nyokimon.webp',
     series: 'Adventure 01',
     level: 'Fresh', 
     attribute: 'None', 
@@ -151,7 +151,7 @@ const digimons = [
   },
   {
     name: 'Yokomon', 
-    image: 'placeholder.jpeg',
+    image: 'yokomon.webp',
     series: 'Adventure 01',
     level: 'In-Training', 
     attribute: 'Data', 
@@ -161,7 +161,7 @@ const digimons = [
   },
   {
     name: 'Biyomon', 
-    image: 'placeholder.jpeg',
+    image: 'biyomon.webp',
     series: 'Adventure 01',
     level: 'Rookie', 
     attribute: 'Vaccine', 
@@ -171,7 +171,7 @@ const digimons = [
   },
   {
     name: 'Birdramon', 
-    image: 'placeholder.jpeg',
+    image: 'birdramon.webp',
     series: 'Adventure 01',
     level: 'Champion', 
     attribute: 'Vaccine', 
@@ -181,7 +181,7 @@ const digimons = [
   },
   {
     name: 'Garudamon', 
-    image: 'placeholder.jpeg',
+    image: 'garudamon.webp',
     series: 'Adventure 01',
     level: 'Ultimate', 
     attribute: 'Vaccine', 
@@ -191,7 +191,7 @@ const digimons = [
   },
   {
     name: 'Hououmon', 
-    image: 'placeholder.jpeg',
+    image: 'hououmon.webp',
     series: 'Adventure 01',
     level: 'Mega', 
     attribute: 'Vaccine', 
@@ -201,7 +201,7 @@ const digimons = [
   },
   {
     name: 'Pabumon', 
-    image: 'placeholder.jpeg',
+    image: 'pabumon.webp',
     series: 'Adventure 01',
     level: 'Fresh', 
     attribute: 'None', 
@@ -211,7 +211,7 @@ const digimons = [
   },
   {
     name: 'Motimon', 
-    image: 'placeholder.jpeg',
+    image: 'motimon.webp',
     series: 'Adventure 01',
     level: 'In-Training', 
     attribute: 'Data', 
@@ -221,7 +221,7 @@ const digimons = [
   },
   {
     name: 'Tentomon', 
-    image: 'placeholder.jpeg',
+    image: 'tentomon.webp',
     series: 'Adventure 01',
     level: 'Rookie', 
     attribute: 'Vaccine/Virus', 
@@ -231,7 +231,7 @@ const digimons = [
   },
   {
     name: 'Kabuterimon', 
-    image: 'placeholder.jpeg',
+    image: 'kabuterimon.webp',
     series: 'Adventure 01',
     level: 'Champion', 
     attribute: 'Vaccine', 
@@ -241,7 +241,7 @@ const digimons = [
   },
   {
     name: 'MegaKabuterimon', 
-    image: 'placeholder.jpeg',
+    image: 'megaKabuterimon.webp',
     series: 'Adventure 01',
     level: 'Ultimate', 
     attribute: 'Vaccine', 
@@ -251,7 +251,7 @@ const digimons = [
   },
   {
     name: 'HerculesKabuterimon', 
-    image: 'placeholder.jpeg',
+    image: 'herculesKabuterimon.webp',
     series: 'Adventure 01',
     level: 'Mega', 
     attribute: 'Vaccine', 
@@ -261,7 +261,7 @@ const digimons = [
   },
   {
     name: 'Yuramon', 
-    image: 'placeholder.jpeg',
+    image: 'yuramon.webp',
     series: 'Adventure 01',
     level: 'Fresh', 
     attribute: 'None', 
@@ -271,7 +271,7 @@ const digimons = [
   },
   {
     name: 'Tanemon', 
-    image: 'placeholder.jpeg',
+    image: 'tanemon.webp',
     series: 'Adventure 01',
     level: 'In-Training', 
     attribute: 'Data', 
@@ -281,7 +281,7 @@ const digimons = [
   },
   {
     name: 'Palmon', 
-    image: 'placeholder.jpeg',
+    image: 'palmon.webp',
     series: 'Adventure 01',
     level: 'Rookie', 
     attribute: 'Vaccine', 
@@ -291,7 +291,7 @@ const digimons = [
   },
   {
     name: 'Togemon', 
-    image: 'placeholder.jpeg',
+    image: 'togemon.webp',
     series: 'Adventure 01',
     level: 'Champion', 
     attribute: 'Virus', 
@@ -301,7 +301,7 @@ const digimons = [
   },
   {
     name: 'Lillymon', 
-    image: 'placeholder.jpeg',
+    image: 'lillymon.webp',
     series: 'Adventure 01',
     level: 'Ultimate', 
     attribute: 'Data', 
@@ -311,7 +311,7 @@ const digimons = [
   },
   {
     name: 'Rosemon', 
-    image: 'placeholder.jpeg',
+    image: 'rosemon.webp',
     series: 'Adventure 01',
     level: 'Mega', 
     attribute: 'Data', 
@@ -321,7 +321,7 @@ const digimons = [
   },
   {
     name: 'Pichimon', 
-    image: 'placeholder.jpeg',
+    image: 'pichimon.webp',
     series: 'Adventure 01',
     level: 'Fresh', 
     attribute: 'None', 
@@ -331,7 +331,7 @@ const digimons = [
   },
   {
     name: 'Bukamon', 
-    image: 'placeholder.jpeg',
+    image: 'bukamon.webp',
     series: 'Adventure 01',
     level: 'In-Training', 
     attribute: 'Data', 
@@ -341,7 +341,7 @@ const digimons = [
   },
   {
     name: 'Gomamon', 
-    image: 'placeholder.jpeg',
+    image: 'gomamon.webp',
     series: 'Adventure 01',
     level: 'Rookie', 
     attribute: 'Vaccine', 
@@ -351,7 +351,7 @@ const digimons = [
   },
   {
     name: 'Ikkakumon', 
-    image: 'placeholder.jpeg',
+    image: 'ikkakumon.webp',
     series: 'Adventure 01',
     level: 'Champion', 
     attribute: 'Vaccine', 
@@ -361,7 +361,7 @@ const digimons = [
   },
   {
     name: 'Zudomon', 
-    image: 'placeholder.jpeg',
+    image: 'zudomon.webp',
     series: 'Adventure 01',
     level: 'Ultimate', 
     attribute: 'Vaccine', 
@@ -371,7 +371,7 @@ const digimons = [
   },
   {
     name: 'Vikemon', 
-    image: 'placeholder.jpeg',
+    image: 'vikemon.webp',
     series: 'Adventure 01',
     level: 'Mega', 
     attribute: 'Vaccine', 
@@ -381,7 +381,7 @@ const digimons = [
   },
   {
     name: 'Poyomon', 
-    image: 'placeholder.jpeg',
+    image: 'poyomon.webp',
     series: 'Adventure 01, Adventure 02',
     level: 'Fresh', 
     attribute: 'None', 
@@ -391,7 +391,7 @@ const digimons = [
   },
   {
     name: 'Tokomon', 
-    image: 'placeholder.jpeg',
+    image: 'tokomon.webp',
     series: 'Adventure 01, Adventure 02',
     level: 'In-Training', 
     attribute: 'Data', 
@@ -401,7 +401,7 @@ const digimons = [
   },
   {
     name: 'Patamon', 
-    image: 'placeholder.jpeg',
+    image: 'patamon.webp',
     series: 'Adventure 01, Adventure 02',
     level: 'Rookie', 
     attribute: 'Vaccine', 
@@ -411,7 +411,7 @@ const digimons = [
   },
   {
     name: 'Angemon', 
-    image: 'placeholder.jpeg',
+    image: 'angemon.webp',
     series: 'Adventure 01, Adventure 02',
     level: 'Champion', 
     attribute: 'Vaccine', 
@@ -421,7 +421,7 @@ const digimons = [
   },
   {
     name: 'Pegasusmon', 
-    image: 'placeholder.jpeg',
+    image: 'pegasusmon.webp',
     series: 'Adventure 02',
     level: 'Armor: Digi-Egg of Hope', 
     attribute: 'Vaccine', 
@@ -431,7 +431,7 @@ const digimons = [
   },
   {
     name: 'MagnaAngemon', 
-    image: 'placeholder.jpeg',
+    image: 'magnaAngemon.webp',
     series: 'Adventure 01, Adventure 02',
     level: 'Ultimate', 
     attribute: 'Vaccine', 
@@ -441,7 +441,7 @@ const digimons = [
   },
   {
     name: 'Seraphimon', 
-    image: 'placeholder.jpeg',
+    image: 'seraphimon.webp',
     series: 'Adventure 01',
     level: 'Mega', 
     attribute: 'Vaccine', 
@@ -451,7 +451,7 @@ const digimons = [
   },
   {
     name: 'Chibomon', 
-    image: 'placeholder.jpeg',
+    image: 'chibomon.webp',
     series: 'Adventure 02',
     level: 'Fresh', 
     attribute: 'None', 
@@ -461,7 +461,7 @@ const digimons = [
   },
   {
     name: 'DemiVeemon', 
-    image: 'placeholder.jpeg',
+    image: 'demiVeemon.webp',
     series: 'Adventure 02',
     level: 'In-Training', 
     attribute: 'None', 
@@ -471,7 +471,7 @@ const digimons = [
   },
   {
     name: 'Veemon', 
-    image: 'placeholder.jpeg',
+    image: 'veemon.webp',
     series: 'Adventure 02',
     level: 'Rookie', 
     attribute: 'Vaccine', 
@@ -481,7 +481,7 @@ const digimons = [
   },
   {
     name: 'ExVeemon', 
-    image: 'placeholder.jpeg',
+    image: 'exVeemon.webp',
     series: 'Adventure 02',
     level: 'Champion', 
     attribute: 'Vaccine', 
@@ -491,7 +491,7 @@ const digimons = [
   },
   {
     name: 'Flamedramon', 
-    image: 'placeholder.jpeg',
+    image: 'flamedramon.webp',
     series: 'Adventure 02',
     level: 'Armor: Digi-Egg of Courage', 
     attribute: 'Vaccine', 
@@ -501,7 +501,7 @@ const digimons = [
   },
   {
     name: 'Raidramon', 
-    image: 'placeholder.jpeg',
+    image: 'raidramon.webp',
     series: 'Adventure 02',
     level: 'Armor: Digi-Egg of Friendship', 
     attribute: 'Vaccine', 
@@ -511,7 +511,7 @@ const digimons = [
   },
   {
     name: 'Palidramon', 
-    image: 'placeholder.jpeg',
+    image: 'palidramon.webp',
     series: 'Adventure 02',
     level: 'Ultimate', 
     attribute: 'Vaccine', 
@@ -521,7 +521,7 @@ const digimons = [
   },
   {
     name: 'Imperialdramon Dragon Mode', 
-    image: 'placeholder.jpeg',
+    image: 'imperialdramonDragonMode.webp',
     series: 'Adventure 02',
     level: 'Mega', 
     attribute: 'Vaccine/Virus', 
@@ -531,7 +531,7 @@ const digimons = [
   },
   {
     name: 'Imperialdramon Fighter Mode', 
-    image: 'placeholder.jpeg',
+    image: 'imperialdramonFighterMode.webp',
     series: 'Adventure 02',
     level: 'Mega', 
     attribute: 'Vaccine/Virus', 
@@ -541,7 +541,7 @@ const digimons = [
   },
   {
     name: 'Imperialdramon Paladin Mode', 
-    image: 'placeholder.jpeg',
+    image: 'imperialdramonPaladinMode.webp',
     series: 'Adventure 02',
     level: 'Mega', 
     attribute: 'Vaccine', 
@@ -551,7 +551,7 @@ const digimons = [
   },
   {
     name: 'Magnamon', 
-    image: 'placeholder.jpeg',
+    image: 'magnamon.webp',
     series: 'Adventure 02',
     level: 'Mega/Armor: Digi-Egg of Miracles', 
     attribute: 'Vaccine', 
@@ -561,7 +561,7 @@ const digimons = [
   },
   {
     name: 'Leafmon', 
-    image: 'placeholder.jpeg',
+    image: 'leafmon.webp',
     series: 'Adventure 02',
     level: 'Fresh', 
     attribute: 'None', 
@@ -571,7 +571,7 @@ const digimons = [
   },
   {
     name: 'Minomon', 
-    image: 'placeholder.jpeg',
+    image: 'minomon.webp',
     series: 'Adventure 02',
     level: 'In-Training', 
     attribute: 'None', 
@@ -581,7 +581,7 @@ const digimons = [
   },
   {
     name: 'Wormmon', 
-    image: 'placeholder.jpeg',
+    image: 'wormon.webp',
     series: 'Adventure 02',
     level: 'Rookie', 
     attribute: 'Virus/Vaccine', 
@@ -591,7 +591,7 @@ const digimons = [
   },
   {
     name: 'Stingmon', 
-    image: 'placeholder.jpeg',
+    image: 'stingmon.webp',
     series: 'Adventure 02',
     level: 'Champion', 
     attribute: 'Virus', 
@@ -601,7 +601,7 @@ const digimons = [
   },
   {
     name: 'Pururumon', 
-    image: 'placeholder.jpeg',
+    image: 'pururumon.webp',
     series: 'Adventure 02',
     level: 'Fresh', 
     attribute: 'None', 
@@ -611,7 +611,7 @@ const digimons = [
   },
   {
     name: 'Poromon', 
-    image: 'placeholder.jpeg',
+    image: 'poromon.webp',
     series: 'Adventure 02',
     level: 'In-Training', 
     attribute: 'None', 
@@ -621,7 +621,7 @@ const digimons = [
   },
   {
     name: 'Hawkmon', 
-    image: 'placeholder.jpeg',
+    image: 'hawkmon.webp',
     series: 'Adventure 02',
     level: 'Rookie', 
     attribute: 'Data', 
@@ -631,7 +631,7 @@ const digimons = [
   },
   {
     name: 'Halsemon', 
-    image: 'placeholder.jpeg',
+    image: 'halsemon.webp',
     series: 'Adventure 02',
     level: 'Armor: Digi-Egg of Love', 
     attribute: 'Data', 
@@ -641,7 +641,7 @@ const digimons = [
   },
   {
     name: 'Shurimon', 
-    image: 'placeholder.jpeg',
+    image: 'shurimon.webp',
     series: 'Adventure 02',
     level: 'Armor: Digi-Egg of Sincerity', 
     attribute: 'Data', 
@@ -651,7 +651,7 @@ const digimons = [
   },
   {
     name: 'Aquilamon', 
-    image: 'placeholder.jpeg',
+    image: 'aquilamon.webp',
     series: 'Adventure 02',
     level: 'Champion', 
     attribute: 'Data', 
@@ -661,7 +661,7 @@ const digimons = [
   },
   {
     name: 'Silphymon', 
-    image: 'placeholder.jpeg',
+    image: 'silphymon.webp',
     series: 'Adventure 02',
     level: 'Ultimate', 
     attribute: 'Data', 
@@ -671,7 +671,7 @@ const digimons = [
   },
   {
     name: 'Tsubumon', 
-    image: 'placeholder.jpeg',
+    image: 'tsubumon.webp',
     series: 'Adventure 02',
     level: 'Fresh', 
     attribute: 'None', 
@@ -681,7 +681,7 @@ const digimons = [
   },
   {
     name: 'Upamon', 
-    image: 'placeholder.jpeg',
+    image: 'upamon.webp',
     series: 'Adventure 02',
     level: 'In-Training', 
     attribute: 'Vaccine', 
@@ -691,7 +691,7 @@ const digimons = [
   },
   {
     name: 'Armadillomon', 
-    image: 'placeholder.jpeg',
+    image: 'armadillomon.webp',
     series: 'Adventure 02',
     level: 'Rookie', 
     attribute: 'Vaccine', 
@@ -701,7 +701,7 @@ const digimons = [
   },
   {
     name: 'Submarimon', 
-    image: 'placeholder.jpeg',
+    image: 'submarimon.webp',
     series: 'Adventure 02',
     level: 'Armor: Digi-Egg of Reliability', 
     attribute: 'Vaccine', 
@@ -711,7 +711,7 @@ const digimons = [
   },
   {
     name: 'Digmon', 
-    image: 'placeholder.jpeg',
+    image: 'digmon.webp',
     series: 'Adventure 02',
     level: 'Armor: Digi-Egg of Knowledge', 
     attribute: 'Vaccine', 
@@ -721,7 +721,7 @@ const digimons = [
   },
   {
     name: 'Ankylomon', 
-    image: 'placeholder.jpeg',
+    image: 'ankylomon.webp',
     series: 'Adventure 02',
     level: 'Champion', 
     attribute: 'Vaccine', 
@@ -731,7 +731,7 @@ const digimons = [
   },
   {
     name: 'Shakkoumon', 
-    image: 'placeholder.jpeg',
+    image: 'shakkoumon.webp',
     series: 'Adventure 02',
     level: 'Ultimate', 
     attribute: 'Vaccine', 
@@ -741,7 +741,7 @@ const digimons = [
   },
   {
     name: 'YukimiBotamon', 
-    image: 'placeholder.jpeg',
+    image: 'yukimiBotamon.webp',
     series: 'Adventure 02',
     level: 'Fresh', 
     attribute: 'None', 
@@ -751,7 +751,7 @@ const digimons = [
   },
   {
     name: 'Nyaromon', 
-    image: 'placeholder.jpeg',
+    image: 'nyaromon.webp',
     series: 'Adventure 01',
     level: 'In-Training', 
     attribute: 'None', 
@@ -761,7 +761,7 @@ const digimons = [
   },
   {
     name: 'Salamon', 
-    image: 'placeholder.jpeg',
+    image: 'salamon.webp',
     series: 'Adventure 02',
     level: 'Rookie', 
     attribute: 'Vaccine', 
@@ -771,7 +771,7 @@ const digimons = [
   },
   {
     name: 'Gatomon', 
-    image: 'placeholder.jpeg',
+    image: 'gatomon.webp',
     series: 'Adventure 02',
     level: 'Champion', 
     attribute: 'Vaccine', 
@@ -781,7 +781,7 @@ const digimons = [
   },
   {
     name: 'Nefertimon', 
-    image: 'placeholder.jpeg',
+    image: 'nefertimon.webp',
     series: 'Adventure 02',
     level: 'Armor: Digi-Egg of Light', 
     attribute: 'Vaccine', 
@@ -791,7 +791,7 @@ const digimons = [
   },
   {
     name: 'Angewomon', 
-    image: 'placeholder.jpeg',
+    image: 'angewomon.webp',
     series: 'Adventure 02',
     level: 'Ultimate', 
     attribute: 'Vaccine', 
@@ -801,7 +801,7 @@ const digimons = [
   },
   {
     name: 'Jyarimon', 
-    image: 'placeholder.jpeg',
+    image: 'jyarimon.webp',
     series: 'Tamers',
     level: 'Fresh', 
     attribute: 'None', 
@@ -811,7 +811,7 @@ const digimons = [
   },
   {
     name: 'Gigimon', 
-    image: 'placeholder.jpeg',
+    image: 'gigimon.webp',
     series: 'Tamers',
     level: 'In-Training', 
     attribute: 'None', 
@@ -821,7 +821,7 @@ const digimons = [
   },
   {
     name: 'Guilmon', 
-    image: 'placeholder.jpeg',
+    image: 'guilmon.webp',
     series: 'Tamers',
     level: 'Rookie', 
     attribute: 'Virus', 
@@ -831,7 +831,7 @@ const digimons = [
   },
   {
     name: 'Growlmon', 
-    image: 'placeholder.jpeg',
+    image: 'growlmon.webp',
     series: 'Tamers',
     level: 'Champion', 
     attribute: 'Virus', 
@@ -841,7 +841,7 @@ const digimons = [
   },
   {
     name: 'WarGrowlmon', 
-    image: 'placeholder.jpeg',
+    image: 'warGrowlmon.webp',
     series: 'Tamers',
     level: 'Ultimate', 
     attribute: 'Virus', 
@@ -851,7 +851,7 @@ const digimons = [
   },
   {
     name: 'Megidramon', 
-    image: 'placeholder.jpeg',
+    image: 'megidramon.webp',
     series: 'Tamers',
     level: 'Mega', 
     attribute: 'Virus', 
@@ -861,7 +861,7 @@ const digimons = [
   },
   {
     name: 'Gallantmon', 
-    image: 'placeholder.jpeg',
+    image: 'gallantmon.webp',
     series: 'Tamers',
     level: 'Mega', 
     attribute: 'Virus', 
@@ -871,7 +871,7 @@ const digimons = [
   },
   {
     name: 'Gallantmon Crimson Mode', 
-    image: 'placeholder.jpeg',
+    image: 'gallantmonCrimsonMode.webp',
     series: 'Tamers',
     level: 'Mega', 
     attribute: 'Virus/Vaccine', 
@@ -881,7 +881,7 @@ const digimons = [
   },
   {
     name: 'Zerimon', 
-    image: 'placeholder.jpeg',
+    image: 'zerimon.webp',
     series: 'Tamers',
     level: 'Fresh', 
     attribute: 'None', 
@@ -891,7 +891,7 @@ const digimons = [
   },
   {
     name: 'Gummymon', 
-    image: 'placeholder.jpeg',
+    image: 'gummymon.webp',
     series: 'Tamers',
     level: 'In-Training', 
     attribute: 'None', 
@@ -901,7 +901,7 @@ const digimons = [
   },
   {
     name: 'Terriermon', 
-    image: 'placeholder.jpeg',
+    image: 'terriermon.webp',
     series: 'Tamers',
     level: 'Rookie', 
     attribute: 'Vaccine', 
@@ -911,7 +911,7 @@ const digimons = [
   },
   {
     name: 'Rapidmon (Armor)', 
-    image: 'placeholder.jpeg',
+    image: 'rapidmonArmor.webp',
     series: 'Tamers',
     level: 'Armor: Digi-Egg of Destiny', 
     attribute: 'Vaccine', 
@@ -921,7 +921,7 @@ const digimons = [
   },
   {
     name: 'Gargomon', 
-    image: 'placeholder.jpeg',
+    image: 'gargomon.webp',
     series: 'Tamers',
     level: 'Champion', 
     attribute: 'Vaccine', 
@@ -931,7 +931,7 @@ const digimons = [
   },
   {
     name: 'Rapidmon', 
-    image: 'placeholder.jpeg',
+    image: 'rapidmon.webp',
     series: 'Tamers',
     level: 'Ultimate', 
     attribute: 'Vaccine', 
@@ -941,7 +941,7 @@ const digimons = [
   },
   {
     name: 'MegaGargomon', 
-    image: 'placeholder.jpeg',
+    image: 'megaGargomon.webp',
     series: 'Tamers',
     level: 'Mega', 
     attribute: 'Vaccine', 
@@ -951,7 +951,7 @@ const digimons = [
   },
   {
     name: 'Relemon', 
-    image: 'placeholder.jpeg',
+    image: 'relemon.webp',
     series: 'Tamers',
     level: 'Fresh', 
     attribute: 'Nonw', 
@@ -961,7 +961,7 @@ const digimons = [
   },
   {
     name: 'Viximon', 
-    image: 'placeholder.jpeg',
+    image: 'viximon.webp',
     series: 'Tamers',
     level: 'In-Training', 
     attribute: 'None', 
@@ -971,7 +971,7 @@ const digimons = [
   },
   {
     name: 'Renamon', 
-    image: 'placeholder.jpeg',
+    image: 'renamon.webp',
     series: 'Tamers',
     level: 'Rookie', 
     attribute: 'Data', 
@@ -981,7 +981,7 @@ const digimons = [
   },
   {
     name: 'Kyubimon', 
-    image: 'placeholder.jpeg',
+    image: 'kyubimon.webp',
     series: 'Tamers',
     level: 'Champion', 
     attribute: 'Data', 
@@ -991,7 +991,7 @@ const digimons = [
   },
   {
     name: 'Taomon', 
-    image: 'placeholder.jpeg',
+    image: 'taomon.webp',
     series: 'Tamers',
     level: 'Ultimate', 
     attribute: 'Data', 
@@ -1001,7 +1001,7 @@ const digimons = [
   },
   {
     name: 'Sakuyamon', 
-    image: 'placeholder.jpeg',
+    image: 'sakuyamon.webp',
     series: 'Tamers',
     level: 'Mega', 
     attribute: 'Data', 
@@ -1011,7 +1011,7 @@ const digimons = [
   },
   {
     name: 'Cyberdramon', 
-    image: 'placeholder.jpeg',
+    image: 'cyberdramon.webp',
     series: 'Tamers',
     level: 'Ultimate', 
     attribute: 'Vaccine', 
@@ -1021,7 +1021,7 @@ const digimons = [
   },
   {
     name: 'Justimon', 
-    image: 'placeholder.jpeg',
+    image: 'justimonBlitzArm.webp',
     series: 'Tamers',
     level: 'Mega', 
     attribute: 'Vaccine', 
@@ -1031,7 +1031,7 @@ const digimons = [
   },
   {
     name: 'MetalKoromon', 
-    image: 'placeholder.jpeg',
+    image: 'metalKoromon.webp',
     series: 'Tamers',
     level: 'Fresh', 
     attribute: 'None', 
@@ -1041,7 +1041,7 @@ const digimons = [
   },
   {
     name: 'Kapurimon', 
-    image: 'placeholder.jpeg',
+    image: 'kapurimon.webp',
     series: 'Tamers',
     level: 'In-Training', 
     attribute: 'None', 
@@ -1051,7 +1051,7 @@ const digimons = [
   },
   {
     name: 'Kokuwamon', 
-    image: 'placeholder.jpeg',
+    image: 'kokuwamon.webp',
     series: 'Tamers',
     level: 'Rookie', 
     attribute: 'Data', 
@@ -1061,7 +1061,7 @@ const digimons = [
   },
   {
     name: 'Guardromon', 
-    image: 'placeholder.jpeg',
+    image: 'guardromon.webp',
     series: 'Tamers',
     level: 'Champion', 
     attribute: 'Virus/Data/Vaccine', 
@@ -1071,7 +1071,7 @@ const digimons = [
   },
   {
     name: 'Andromon', 
-    image: 'placeholder.jpeg',
+    image: 'andromon.webp',
     series: 'Adventure 01, Adventure 02, Tamers',
     level: 'Ultimate', 
     attribute: 'Vaccine', 
@@ -1081,7 +1081,7 @@ const digimons = [
   },
   {
     name: 'MarineAngemon', 
-    image: 'placeholder.jpeg',
+    image: 'marineAngemon.webp',
     series: 'Tamers',
     level: 'Mega', 
     attribute: 'Vaccine/Virus', 
@@ -1091,7 +1091,7 @@ const digimons = [
   },
   {
     name: 'Conomon', 
-    image: 'placeholder.jpeg',
+    image: 'conomon.webp',
     series: 'Tamers',
     level: 'Fresh', 
     attribute: 'None', 
@@ -1101,7 +1101,7 @@ const digimons = [
   },
   {
     name: 'Kokomon', 
-    image: 'placeholder.jpeg',
+    image: 'kokomon.webp',
     series: 'Tamers',
     level: 'In-Training', 
     attribute: 'None', 
@@ -1111,7 +1111,7 @@ const digimons = [
   },
   {
     name: 'Lopmon', 
-    image: 'placeholder.jpeg',
+    image: 'lopmon.webp',
     series: 'Tamers',
     level: 'Rookie', 
     attribute: 'Data', 
@@ -1121,7 +1121,7 @@ const digimons = [
   },
   {
     name: 'Wendigomon', 
-    image: 'placeholder.jpeg',
+    image: 'wendigomon.webp',
     series: 'Adventure 02',
     level: 'Champion', 
     attribute: 'Virus', 
@@ -1131,7 +1131,7 @@ const digimons = [
   },
   {
     name: 'Antylamon', 
-    image: 'placeholder.jpeg',
+    image: 'antylamonGood.webp',
     series: 'Tamers',
     level: 'Ultimate', 
     attribute: 'Data/Virus', 
@@ -1141,7 +1141,7 @@ const digimons = [
   },
   {
     name: 'Cherubimon', 
-    image: 'placeholder.jpeg',
+    image: 'cherubimonGood.webp',
     series: 'Tamers',
     level: 'Mega', 
     attribute: 'Vaccine', 
@@ -1151,7 +1151,7 @@ const digimons = [
   },
   {
     name: 'Calumon', 
-    image: 'placeholder.jpeg',
+    image: 'calumon.webp',
     series: 'Tamers',
     level: 'Unknown', 
     attribute: 'Unknown', 
@@ -1161,7 +1161,7 @@ const digimons = [
   },
   {
     name: 'Keemon', 
-    image: 'placeholder.jpeg',
+    image: 'keemon.webp',
     series: 'Tamers',
     level: 'Fresh', 
     attribute: 'None', 
@@ -1171,7 +1171,7 @@ const digimons = [
   },
   {
     name: 'Yaamon', 
-    image: 'placeholder.jpeg',
+    image: 'yaamon.webp',
     series: 'Tamers',
     level: 'In-Training', 
     attribute: 'None', 
@@ -1181,7 +1181,7 @@ const digimons = [
   },
   {
     name: 'Impmon', 
-    image: 'placeholder.jpeg',
+    image: 'impmon.webp',
     series: 'Tamers',
     level: 'Rookie', 
     attribute: 'Virus', 
@@ -1191,7 +1191,7 @@ const digimons = [
   },
   {
     name: 'Beelzemon', 
-    image: 'placeholder.jpeg',
+    image: 'beelzemon.webp',
     series: 'Tamers',
     level: 'Mega', 
     attribute: 'Virus', 
@@ -1201,7 +1201,7 @@ const digimons = [
   },
   {
     name: 'Beelzemon Blast Mode', 
-    image: 'placeholder.jpeg',
+    image: 'beelzemonBlastMode.webp',
     series: 'Tamers',
     level: 'Mega', 
     attribute: 'Virus', 
@@ -1211,7 +1211,7 @@ const digimons = [
   },
   {
     name: 'Leomon', 
-    image: 'placeholder.jpeg',
+    image: '.webp',
     series: 'Adventure 01, Tamers',
     level: 'Ultimate', 
     attribute: 'Vaccine', 
@@ -1221,7 +1221,7 @@ const digimons = [
   },
   {
     name: 'SaberLeomon', 
-    image: 'placeholder.jpeg',
+    image: '.webp',
     series: 'Adventure 01, Tamers',
     level: 'Mega', 
     attribute: 'Data', 
@@ -1230,8 +1230,28 @@ const digimons = [
     tamer: 'Jeri Katou'
   },
   {
+    name: 'Bokomon', 
+    image: 'bokomon.webp',
+    series: 'Frontier',
+    level: 'Rookie', 
+    attribute: 'Vaccine', 
+    type: 'Mutant', 
+    canDigivolve: false,
+    tamer: 'None'
+  },
+  {
+    name: 'Neemon', 
+    image: 'neemon.webp',
+    series: 'Frontier',
+    level: 'Rookie', 
+    attribute: 'Data', 
+    type: 'Beast', 
+    canDigivolve: false,
+    tamer: 'None'
+  },
+  {
     name: 'Flamemon', 
-    image: 'placeholder.jpeg',
+    image: 'flamemon.webp',
     series: 'Frontier',
     level: 'Hybrid', 
     attribute: 'Variable', 
@@ -1241,7 +1261,7 @@ const digimons = [
   },
   {
     name: 'Agunimon', 
-    image: 'placeholder.jpeg',
+    image: 'agunimon.webp',
     series: 'Frontier',
     level: 'Hybrid', 
     attribute: 'Variable', 
@@ -1251,7 +1271,7 @@ const digimons = [
   },
   {
     name: 'BurningGreymon', 
-    image: 'placeholder.jpeg',
+    image: 'burningGreymon.webp',
     series: 'Frontier',
     level: 'Hybrid', 
     attribute: 'Variable', 
@@ -1261,7 +1281,7 @@ const digimons = [
   },
   {
     name: 'Aldamon', 
-    image: 'placeholder.jpeg',
+    image: 'aldamon.webp',
     series: 'Frontier',
     level: 'Hybrid', 
     attribute: 'Variable', 
@@ -1271,7 +1291,7 @@ const digimons = [
   },
   {
     name: 'EmperorGreymon', 
-    image: 'placeholder.jpeg',
+    image: 'emperorGreymon.webp',
     series: 'Frontier',
     level: 'Hybrid', 
     attribute: 'Variable', 
@@ -1281,7 +1301,7 @@ const digimons = [
   },
   {
     name: 'Susanoomon', 
-    image: 'placeholder.jpeg',
+    image: 'susanoomon.webp',
     series: 'Frontier',
     level: 'Mega', 
     attribute: 'Vaccine', 
@@ -1291,7 +1311,7 @@ const digimons = [
   },
   {
     name: 'AncientGreymon', 
-    image: 'placeholder.jpeg',
+    image: 'ancientGreymon.webp',
     series: 'Frontier',
     level: 'Mega', 
     attribute: 'Vaccine', 
@@ -1301,7 +1321,7 @@ const digimons = [
   },
   {
     name: 'Lobomon', 
-    image: 'placeholder.jpeg',
+    image: 'lobomon.webp',
     series: 'Frontier',
     level: 'Hybrid', 
     attribute: 'Variable', 
@@ -1311,7 +1331,7 @@ const digimons = [
   },
   {
     name: 'KendoGarurumon', 
-    image: 'placeholder.jpeg',
+    image: 'kendoGarurumon.webp',
     series: 'Frontier',
     level: 'Hybrid', 
     attribute: 'Variable', 
@@ -1321,7 +1341,7 @@ const digimons = [
   },
   {
     name: 'BeoWolfmon', 
-    image: 'placeholder.jpeg',
+    image: 'beoWolfmon.webp',
     series: 'Frontier',
     level: 'Hybrid', 
     attribute: 'Variable', 
@@ -1331,7 +1351,7 @@ const digimons = [
   },
   {
     name: 'MagnaGarurumon', 
-    image: 'placeholder.jpeg',
+    image: 'magnaGarurumon.webp',
     series: 'Frontier',
     level: 'Hybrid', 
     attribute: 'Variable', 
@@ -1341,7 +1361,7 @@ const digimons = [
   },
   {
     name: 'AncientGarurumon', 
-    image: 'placeholder.jpeg',
+    image: 'ancientGarurumon.webp',
     series: 'Frontier',
     level: 'Mega', 
     attribute: 'Data', 
@@ -1351,7 +1371,7 @@ const digimons = [
   },
   {
     name: 'Beetlemon', 
-    image: 'placeholder.jpeg',
+    image: 'beetlemon.webp',
     series: 'Frontier',
     level: 'Hybrid', 
     attribute: 'Variable', 
@@ -1361,7 +1381,7 @@ const digimons = [
   },
   {
     name: 'MetalKabuterimon', 
-    image: 'placeholder.jpeg',
+    image: 'metalKabuterimon.webp',
     series: 'Frontier',
     level: 'Hybrid', 
     attribute: 'Variable', 
@@ -1371,7 +1391,7 @@ const digimons = [
   },
   {
     name: 'RhinoKabuterimon', 
-    image: 'placeholder.jpeg',
+    image: 'rhinoKabuterimon.webp',
     series: 'Frontier',
     level: 'Hybrid', 
     attribute: 'Variable', 
@@ -1381,7 +1401,7 @@ const digimons = [
   },
   {
     name: 'AncientBeetlemon', 
-    image: 'placeholder.jpeg',
+    image: 'ancientBeetlemon.webp',
     series: 'Frontier',
     level: 'Mega', 
     attribute: 'Vaccine', 
@@ -1391,7 +1411,7 @@ const digimons = [
   },
   {
     name: 'Kazemon', 
-    image: 'placeholder.jpeg',
+    image: 'kazemon.webp',
     series: 'Frontier',
     level: 'Hybrid', 
     attribute: 'Variable', 
@@ -1401,7 +1421,7 @@ const digimons = [
   },
   {
     name: 'Zephyrmon', 
-    image: 'placeholder.jpeg',
+    image: 'zephyrmon.webp',
     series: 'Frontier',
     level: 'Hybrid', 
     attribute: 'Variable', 
@@ -1411,7 +1431,7 @@ const digimons = [
   },
   {
     name: 'JetSilphymon', 
-    image: 'placeholder.jpeg',
+    image: 'jetSilphymon.webp',
     series: 'Frontier',
     level: 'Hybrid', 
     attribute: 'Variable', 
@@ -1421,7 +1441,7 @@ const digimons = [
   },
   {
     name: 'AncientKazemon', 
-    image: 'placeholder.jpeg',
+    image: 'ancientKazemon.webp',
     series: 'Frontier',
     level: 'Mega', 
     attribute: 'Vaccine', 
@@ -1431,7 +1451,7 @@ const digimons = [
   },
   {
     name: 'Kumamon', 
-    image: 'placeholder.jpeg',
+    image: 'kumamon.webp',
     series: 'Frontier',
     level: 'Hybrid', 
     attribute: 'Variable', 
@@ -1441,7 +1461,7 @@ const digimons = [
   },
   {
     name: 'Korikakumon', 
-    image: 'placeholder.jpeg',
+    image: 'korikakumon.webp',
     series: 'Frontier',
     level: 'Hybrid', 
     attribute: 'Variable', 
@@ -1451,7 +1471,7 @@ const digimons = [
   },
   {
     name: 'Daipenmon', 
-    image: 'placeholder.jpeg',
+    image: 'daipenmon.webp',
     series: 'Frontier',
     level: 'Hybrid', 
     attribute: 'Variable', 
@@ -1461,7 +1481,7 @@ const digimons = [
   },
   {
     name: 'AncientMegatheriummon', 
-    image: 'placeholder.jpeg',
+    image: 'ancientMegatheriummon.webp',
     series: 'Frontier',
     level: 'Mega', 
     attribute: 'Variable', 
@@ -1471,7 +1491,7 @@ const digimons = [
   },
   {
     name: 'Loweemon', 
-    image: 'placeholder.jpeg',
+    image: 'loweemon.webp',
     series: 'Frontier',
     level: 'Hybrid', 
     attribute: 'Variable', 
@@ -1481,7 +1501,7 @@ const digimons = [
   },
   {
     name: 'JagerLoweemon', 
-    image: 'placeholder.jpeg',
+    image: 'jagerLoweemon.webp',
     series: 'Frontier',
     level: 'Hybrid', 
     attribute: 'Variable', 
@@ -1491,7 +1511,7 @@ const digimons = [
   },
   {
     name: 'Rhihimon', 
-    image: 'placeholder.jpeg',
+    image: 'rhihimon.webp',
     series: 'Frontier',
     level: 'Hybrid', 
     attribute: 'Variable', 
@@ -1501,7 +1521,7 @@ const digimons = [
   },
   {
     name: 'AncientSphinxmon', 
-    image: 'placeholder.jpeg',
+    image: 'ancientSphinxmon.webp',
     series: 'Frontier',
     level: 'Mega', 
     attribute: 'Virus', 
@@ -1511,7 +1531,7 @@ const digimons = [
   },
   {
     name: 'Duskmon', 
-    image: 'placeholder.jpeg',
+    image: 'duskmon.webp',
     series: 'Frontier',
     level: 'Hybrid', 
     attribute: 'Variable', 
@@ -1521,7 +1541,7 @@ const digimons = [
   },
   {
     name: 'Velgemon', 
-    image: 'placeholder.jpeg',
+    image: 'velgemon.webp',
     series: 'Frontier',
     level: 'Hybrid', 
     attribute: 'Variable', 
@@ -1531,7 +1551,7 @@ const digimons = [
   },
   {
     name: 'Ranamon', 
-    image: 'placeholder.jpeg',
+    image: 'ranamon.webp',
     series: 'Frontier',
     level: 'Hybrid', 
     attribute: 'Variable', 
@@ -1541,7 +1561,7 @@ const digimons = [
   },
   {
     name: 'Calmaramon', 
-    image: 'placeholder.jpeg',
+    image: 'calmaramon.webp',
     series: 'Frontier',
     level: 'Hybrid', 
     attribute: 'Variable', 
@@ -1551,7 +1571,7 @@ const digimons = [
   },
   {
     name: 'AncientMermaidmon', 
-    image: 'placeholder.jpeg',
+    image: 'ancientMermaidmon.webp',
     series: 'Frontier',
     level: 'Mega', 
     attribute: 'Data', 
@@ -1561,7 +1581,7 @@ const digimons = [
   },
   {
     name: 'Arbormon', 
-    image: 'placeholder.jpeg',
+    image: 'arbormon.webp',
     series: 'Frontier',
     level: 'Hybrid', 
     attribute: 'Variable', 
@@ -1571,7 +1591,7 @@ const digimons = [
   },
   {
     name: 'Petaldramon', 
-    image: 'placeholder.jpeg',
+    image: 'petaldramon.webp',
     series: 'Frontier',
     level: 'Hybrid', 
     attribute: 'Variable', 
@@ -1581,7 +1601,7 @@ const digimons = [
   },
   {
     name: 'AncientTroiamon', 
-    image: 'placeholder.jpeg',
+    image: 'ancientTroiamon.webp',
     series: 'Frontier',
     level: 'Mega', 
     attribute: 'Data', 
@@ -1591,7 +1611,7 @@ const digimons = [
   },
   {
     name: 'Mercurymon', 
-    image: 'placeholder.jpeg',
+    image: 'mercurymon.webp',
     series: 'Frontier',
     level: 'Hybrid', 
     attribute: 'Variable', 
@@ -1601,7 +1621,7 @@ const digimons = [
   },
   {
     name: 'Sakkakumon', 
-    image: 'placeholder.jpeg',
+    image: 'sakkakumon.webp',
     series: 'Frontier',
     level: 'Hybrid', 
     attribute: 'Variable', 
@@ -1611,7 +1631,7 @@ const digimons = [
   },
   {
     name: 'ShadowSeraphimon', 
-    image: 'placeholder.jpeg',
+    image: 'shadowSeraphimon.webp',
     series: 'Frontier',
     level: 'Mega', 
     attribute: 'Virus', 
@@ -1621,7 +1641,7 @@ const digimons = [
   },
   {
     name: 'AncientWisemon', 
-    image: 'placeholder.jpeg',
+    image: 'ancientWisemon.webp',
     series: 'Frontier',
     level: 'Mega', 
     attribute: 'Virus', 
@@ -1631,7 +1651,7 @@ const digimons = [
   },
   {
     name: 'Grumblemon', 
-    image: 'placeholder.jpeg',
+    image: 'grumblemon.webp',
     series: 'Frontier',
     level: 'Hybrid', 
     attribute: 'Variable', 
@@ -1641,7 +1661,7 @@ const digimons = [
   },
   {
     name: 'Gigasmon', 
-    image: 'placeholder.jpeg',
+    image: 'gigasmon.webp',
     series: 'Frontier',
     level: 'Hybrid', 
     attribute: 'Variable', 
@@ -1651,7 +1671,7 @@ const digimons = [
   },
   {
     name: 'AncientVolcanomon', 
-    image: 'placeholder.jpeg',
+    image: 'ancientVolcanomon.webp',
     series: 'Frontier',
     level: 'Mega', 
     attribute: 'Virus', 
@@ -1660,8 +1680,38 @@ const digimons = [
     tamer: 'None'
   },
   {
+    name: 'Lucemon', 
+    image: 'lucemon.webp',
+    series: 'Frontier',
+    level: 'Rookie', 
+    attribute: 'Vaccine', 
+    type: 'Angel', 
+    canDigivolve: true,
+    tamer: 'None'
+  },
+  {
+    name: 'Candlemon', 
+    image: 'candlemon.webp',
+    series: 'Frontier',
+    level: 'Rookie', 
+    attribute: 'Data', 
+    type: 'Flame', 
+    canDigivolve: true,
+    tamer: 'None'
+  },
+  {
+    name: 'Starmon', 
+    image: 'starmon.webp',
+    series: 'Adventure 02, Frontier',
+    level: 'Champion', 
+    attribute: 'Data', 
+    type: 'Mutant', 
+    canDigivolve: true,
+    tamer: 'None'
+  },
+  {
     name: 'Meramon', 
-    image: 'placeholder.jpeg',
+    image: 'meramon.webp',
     series: 'Adventure 01, Adventure 02, Tamers',
     level: 'Champion', 
     attribute: 'Vaccine', 
@@ -1670,8 +1720,28 @@ const digimons = [
     tamer: 'Mina'
   },
   {
+    name: 'Deputymon', 
+    image: 'deputymon.webp',
+    series: 'Adventure 02, Frontier',
+    level: 'Champion', 
+    attribute: 'Vaccine', 
+    type: 'Mutant', 
+    canDigivolve: true,
+    tamer: 'None'
+  },
+  {
+    name: 'Numemon', 
+    image: 'numemon.webp',
+    series: 'Adventure 01, Adventure 02',
+    level: 'Champion', 
+    attribute: 'Virus', 
+    type: 'Mollusk', 
+    canDigivolve: true,
+    tamer: 'None'
+  },
+  {
     name: 'Monzaemon', 
-    image: 'placeholder.jpeg',
+    image: 'monzaemon.webp',
     series: 'Adventure 01, Adventure 02, Frontier',
     level: 'Ultimate', 
     attribute: 'Vaccine', 
@@ -1681,7 +1751,7 @@ const digimons = [
   },
   {
     name: 'Frigimon', 
-    image: 'placeholder.jpeg',
+    image: 'frigimon.webp',
     series: 'Adventure 01',
     level: 'Champion', 
     attribute: 'Vaccine', 
@@ -1691,7 +1761,7 @@ const digimons = [
   },
   {
     name: 'Centarumon', 
-    image: 'placeholder.jpeg',
+    image: 'centarumon.webp',
     series: 'Adventure 01',
     level: 'Champion', 
     attribute: 'Data', 
@@ -1701,17 +1771,17 @@ const digimons = [
   },
   {
     name: 'Elecmon', 
-    image: 'placeholder.jpeg',
-    series: 'Adventure 01',
+    image: 'elecmon.webp',
+    series: 'Adventure 01, Adventure 02, Tamers',
     level: 'Rookie', 
-    attribute: 'Male', 
-    type: 'Lizard', 
+    attribute: 'Data', 
+    type: 'Mammal', 
     canDigivolve: true,
-    tamer: 'Taichi "Tai" Kamiya'
+    tamer: 'Jeri Katou'
   },
   {
     name: 'Whamon', 
-    image: 'placeholder.jpeg',
+    image: 'whamon.webp',
     series: 'Adventure 01',
     level: 'Ultimate', 
     attribute: 'Vaccine', 
@@ -1721,7 +1791,7 @@ const digimons = [
   },
   {
     name: 'Piximon', 
-    image: 'placeholder.jpeg',
+    image: 'piximon.webp',
     series: 'Adventure 01',
     level: 'Ultimate', 
     attribute: 'Vaccine/Data', 
@@ -1731,7 +1801,7 @@ const digimons = [
   },
   {
     name: 'Wizardmon', 
-    image: 'placeholder.jpeg',
+    image: 'wizardmon.webp',
     series: 'Adventure 01',
     level: 'Champion', 
     attribute: 'Data', 
@@ -1741,7 +1811,7 @@ const digimons = [
   },
   {
     name: 'Datamon', 
-    image: 'placeholder.jpeg',
+    image: 'datamon.webp',
     series: 'Adventure 01',
     level: 'Ultimate', 
     attribute: 'Virus', 
@@ -1751,7 +1821,7 @@ const digimons = [
   },
   {
     name: 'DemiDevimon', 
-    image: 'placeholder.jpeg',
+    image: 'demiDevimon.webp',
     series: 'Adventure 01',
     level: 'Rookie', 
     attribute: 'Virus', 
@@ -1761,7 +1831,7 @@ const digimons = [
   },
   {
     name: 'Devimon', 
-    image: 'placeholder.jpeg',
+    image: 'devimon.webp',
     series: 'Adventure 01',
     level: 'Champion', 
     attribute: 'Virus', 
@@ -1771,7 +1841,7 @@ const digimons = [
   },
   {
     name: 'Etemon', 
-    image: 'placeholder.jpeg',
+    image: 'etemon.webp',
     series: 'Adventure 01',
     level: 'Ultimate', 
     attribute: 'Virus', 
@@ -1781,7 +1851,7 @@ const digimons = [
   },
   {
     name: 'MetalEtemon', 
-    image: 'placeholder.jpeg',
+    image: 'metalEtemon.webp',
     series: 'Adventure 01',
     level: 'Mega', 
     attribute: 'Virus/Vaccine', 
@@ -1791,7 +1861,7 @@ const digimons = [
   },
   {
     name: 'Parrotmon', 
-    image: 'placeholder.jpeg',
+    image: 'parrotmon.webp',
     series: 'Adventure 01',
     level: 'Ultimate', 
     attribute: 'Vaccine', 
@@ -1801,7 +1871,7 @@ const digimons = [
   },
   {
     name: 'Kokatorimon', 
-    image: 'placeholder.jpeg',
+    image: 'kokatorimon.webp',
     series: 'Adventure 01',
     level: 'Champion', 
     attribute: 'Vaccine/Data', 
@@ -1811,7 +1881,7 @@ const digimons = [
   },
   {
     name: 'Dokugumon', 
-    image: 'placeholder.jpeg',
+    image: 'dokugumon.webp',
     series: 'Adventure 01',
     level: 'Champion', 
     attribute: 'Virus', 
@@ -1821,7 +1891,7 @@ const digimons = [
   },
   {
     name: 'Arukenimon', 
-    image: 'placeholder.jpeg',
+    image: 'arukenimon.webp',
     series: 'Adventure 02',
     level: 'Ultimate', 
     attribute: 'Virus', 
@@ -1831,7 +1901,7 @@ const digimons = [
   },
   {
     name: 'Phantomon', 
-    image: 'placeholder.jpeg',
+    image: 'phantomon.webp',
     series: 'Adventure 01',
     level: 'Ultimate', 
     attribute: 'Virus', 
@@ -1841,7 +1911,7 @@ const digimons = [
   },
   {
     name: 'SkullMeramon', 
-    image: 'placeholder.jpeg',
+    image: 'skullMeramon.webp',
     series: 'Adventure 01',
     level: 'Ultimate', 
     attribute: 'Data', 
@@ -1851,7 +1921,7 @@ const digimons = [
   },
   {
     name: 'Bakemon', 
-    image: 'placeholder.jpeg',
+    image: 'bakemon.webp',
     series: 'Adventure 01',
     level: 'Champion', 
     attribute: 'Virus', 
@@ -1861,7 +1931,7 @@ const digimons = [
   },
   {
     name: 'MegaSeadramon', 
-    image: 'placeholder.jpeg',
+    image: 'megaSeadramon.webp',
     series: 'Adventure 01',
     level: 'Ultimate', 
     attribute: 'Data', 
@@ -1871,7 +1941,7 @@ const digimons = [
   },
   {
     name: 'MetalSeadramon', 
-    image: 'placeholder.jpeg',
+    image: 'metalSeadramon.webp',
     series: 'Adventure 01',
     level: 'Mega', 
     attribute: 'Data', 
@@ -1881,7 +1951,7 @@ const digimons = [
   },
   {
     name: 'Tuskmon', 
-    image: 'placeholder.jpeg',
+    image: 'tuskmon.webp',
     series: 'Adventure 01',
     level: 'Champion', 
     attribute: 'Virus', 
@@ -1891,7 +1961,7 @@ const digimons = [
   },
   {
     name: 'Snimon', 
-    image: 'placeholder.jpeg',
+    image: 'snimon.webp',
     series: 'Adventure 01',
     level: 'Champion', 
     attribute: 'Vaccine', 
@@ -1901,7 +1971,7 @@ const digimons = [
   },
   {
     name: 'Raremon', 
-    image: 'placeholder.jpeg',
+    image: 'raremon.webp',
     series: 'Adventure 01',
     level: 'Champion', 
     attribute: 'Virus', 
@@ -1910,8 +1980,8 @@ const digimons = [
     tamer: 'None'
   },
   {
-    name: 'RareRaaremon', 
-    image: 'placeholder.jpeg',
+    name: 'RareRaremon', 
+    image: 'rareRaremon.webp',
     series: 'Adventure 01',
     level: 'Champion', 
     attribute: 'Virus', 
@@ -1921,7 +1991,7 @@ const digimons = [
   },
   {
     name: 'Garbagemon', 
-    image: 'placeholder.jpeg',
+    image: 'garbagemon.webp',
     series: 'Adventure 01',
     level: 'Ultimate', 
     attribute: 'Virus', 
@@ -1931,7 +2001,7 @@ const digimons = [
   },
   {
     name: 'Chuumon', 
-    image: 'placeholder.jpeg',
+    image: 'chuumon.webp',
     series: 'Adventure 01',
     level: 'Rookie', 
     attribute: 'Virus', 
@@ -1941,7 +2011,7 @@ const digimons = [
   },
   {
     name: 'Ogremon', 
-    image: 'placeholder.jpeg',
+    image: 'ogremon.webp',
     series: 'Adventure 01',
     level: 'Champion', 
     attribute: 'Virus', 
@@ -1951,7 +2021,7 @@ const digimons = [
   },
   {
     name: 'Vademon', 
-    image: 'placeholder.jpeg',
+    image: 'vademon.webp',
     series: 'Adventure 01',
     level: 'Ultimate', 
     attribute: 'Virus', 
@@ -1961,7 +2031,7 @@ const digimons = [
   },
   {
     name: 'Gotsumon', 
-    image: 'placeholder.jpeg',
+    image: 'gotsumon.webp',
     series: 'Adventure 01',
     level: 'Rookie', 
     attribute: 'Data', 
@@ -1971,7 +2041,7 @@ const digimons = [
   },
   {
     name: 'Golemon', 
-    image: 'placeholder.jpeg',
+    image: 'golemon.webp',
     series: 'Adventure 01',
     level: 'Champion', 
     attribute: 'Data', 
@@ -1981,7 +2051,7 @@ const digimons = [
   },
   {
     name: 'Sukamon', 
-    image: 'placeholder.jpeg',
+    image: 'sukamon.webp',
     series: 'Adventure 01, Adventure 02',
     level: 'Champion', 
     attribute: 'Virus', 
@@ -1991,7 +2061,7 @@ const digimons = [
   },
   {
     name: 'Nanimon', 
-    image: 'placeholder.jpeg',
+    image: 'nanimon.webp',
     series: 'Adventure 01',
     level: 'Champion', 
     attribute: 'Virus', 
@@ -2001,7 +2071,7 @@ const digimons = [
   },
   {
     name: 'PlatinumSukamon', 
-    image: 'placeholder.jpeg',
+    image: 'platinumSukamon.webp',
     series: 'World',
     level: 'Champion', 
     attribute: 'Virus/Vaccine', 
@@ -2011,7 +2081,7 @@ const digimons = [
   },
   {
     name: 'Gesomon', 
-    image: 'placeholder.jpeg',
+    image: 'gesomon.webp',
     series: 'Adventure 01',
     level: 'Champion', 
     attribute: 'Virus', 
@@ -2021,7 +2091,7 @@ const digimons = [
   },
   {
     name: 'DarkTyrannomon', 
-    image: 'placeholder.jpeg',
+    image: 'darkTyrannomon.webp',
     series: 'Adventure 01',
     level: 'Champion', 
     attribute: 'Virus', 
@@ -2031,7 +2101,7 @@ const digimons = [
   },
   {
     name: 'Mammothmon', 
-    image: 'placeholder.jpeg',
+    image: 'mammothmon.webp',
     series: 'Adventure 01',
     level: 'Ultimate', 
     attribute: 'Vaccine', 
@@ -2041,7 +2111,7 @@ const digimons = [
   },
   {
     name: 'Floramon', 
-    image: 'placeholder.jpeg',
+    image: 'floramon.webp',
     series: 'Adventure 01, Adventure 02',
     level: 'Rookie', 
     attribute: 'Data', 
@@ -2051,7 +2121,7 @@ const digimons = [
   },
   {
     name: 'Kiwimon', 
-    image: 'placeholder.jpeg',
+    image: 'kiwimon.webp',
     series: 'Adventure 01',
     level: 'Ultimate', 
     attribute: 'Data', 
@@ -2061,7 +2131,7 @@ const digimons = [
   },
   {
     name: 'Blossomon', 
-    image: 'placeholder.jpeg',
+    image: 'blossomon.webp',
     series: 'Adventure 01, Adventure 02',
     level: 'Ultimate', 
     attribute: 'Data', 
@@ -2070,8 +2140,18 @@ const digimons = [
     tamer: 'None'
   },
   {
+    name: 'Mushroomon', 
+    image: 'mushroomon.webp',
+    series: 'Adventure 01, Adventure 02',
+    level: 'Rookie', 
+    attribute: 'Virus', 
+    type: 'Plant', 
+    canDigivolve: true,
+    tamer: 'None'
+  },
+  {
     name: 'Woodmon', 
-    image: 'placeholder.jpeg',
+    image: 'woodmon.webp',
     series: 'Adventure 01',
     level: 'Champion', 
     attribute: 'Virus', 
@@ -2081,7 +2161,7 @@ const digimons = [
   },
   {
     name: 'Cherrymon', 
-    image: 'placeholder.jpeg',
+    image: 'cherrymon.webp',
     series: 'Adventure 01',
     level: 'Ultimate', 
     attribute: 'Virus/Vaccine', 
@@ -2091,7 +2171,7 @@ const digimons = [
   },
   {
     name: 'Puppetmon', 
-    image: 'placeholder.jpeg',
+    image: 'puppetmon.webp',
     series: 'Adventure 01',
     level: 'Mega', 
     attribute: 'Virus', 
@@ -2101,7 +2181,7 @@ const digimons = [
   },
   {
     name: 'WaruMonzaemon', 
-    image: 'placeholder.jpeg',
+    image: 'waruMonzaemon.webp',
     series: 'Adventure 01',
     level: 'Ultimate', 
     attribute: 'Virus', 
@@ -2111,7 +2191,7 @@ const digimons = [
   },
   {
     name: 'Scorpiomon', 
-    image: 'placeholder.jpeg',
+    image: 'scorpiomon.webp',
     series: 'Adventure 01',
     level: 'Ultimate', 
     attribute: 'Data', 
@@ -2121,7 +2201,7 @@ const digimons = [
   },
   {
     name: 'Piedmon', 
-    image: 'placeholder.jpeg',
+    image: 'piedmon.webp',
     series: 'Adventure 01',
     level: 'Mega', 
     attribute: 'Virus', 
@@ -2131,7 +2211,7 @@ const digimons = [
   },
   {
     name: 'Machinedramon', 
-    image: 'placeholder.jpeg',
+    image: 'machinedramon.webp',
     series: 'Adventure 01',
     level: 'Mega', 
     attribute: 'Virus', 
@@ -2141,8 +2221,8 @@ const digimons = [
   },
   {
     name: 'Myotismon', 
-    image: 'placeholder.jpeg',
-    series: 'Adventure 01',
+    image: 'myotismon.webp',
+    series: 'Adventure 01, Adventure 02',
     level: 'Ultimate', 
     attribute: 'Virus', 
     type: 'Undead', 
@@ -2150,8 +2230,28 @@ const digimons = [
     tamer: 'None'
   },
   {
+    name: 'VenomMyotismon', 
+    image: 'venomMyotismon.webp',
+    series: 'Adventure 01',
+    level: 'Mega', 
+    attribute: 'Virus', 
+    type: 'Demon Beast', 
+    canDigivolve: true,
+    tamer: 'None'
+  },
+  {
+    name: 'MaloMyotismon', 
+    image: 'maloMyotismon.webp',
+    series: 'Adventure 02',
+    level: 'Mega', 
+    attribute: 'Virus', 
+    type: 'Demon Lord', 
+    canDigivolve: false,
+    tamer: 'None'
+  },
+  {
     name: 'LadyDevimon', 
-    image: 'placeholder.jpeg',
+    image: 'ladyDevimon.webp',
     series: 'Adventure 01, Adventure 02',
     level: 'Ultimate', 
     attribute: 'Virus', 
@@ -2161,7 +2261,7 @@ const digimons = [
   },
   {
     name: 'Apocalymon', 
-    image: 'placeholder.jpeg',
+    image: 'apocalymon.webp',
     series: 'Adventure 01',
     level: 'Mega', 
     attribute: 'Unidentified', 
@@ -2171,7 +2271,7 @@ const digimons = [
   },
   {
     name: 'Daemon', 
-    image: 'placeholder.jpeg',
+    image: 'daemon.webp',
     series: 'Adventure 02',
     level: 'Mega', 
     attribute: 'Virus', 
@@ -2181,7 +2281,7 @@ const digimons = [
   },
   {
     name: 'SkullSatamon', 
-    image: 'placeholder.jpeg',
+    image: 'skullSatamon.webp',
     series: 'Adventure 02',
     level: 'Ultimate', 
     attribute: 'Virus', 
@@ -2191,7 +2291,7 @@ const digimons = [
   },
   {
     name: 'MarineDevimon', 
-    image: 'placeholder.jpeg',
+    image: 'marineDevimon.webp',
     series: 'Adventure 02',
     level: 'Ultimate', 
     attribute: 'Virus', 
@@ -2201,7 +2301,7 @@ const digimons = [
   },
   {
     name: 'Mummymon', 
-    image: 'placeholder.jpeg',
+    image: 'mummymon.webp',
     series: 'Adventure 02',
     level: 'Ultimate', 
     attribute: 'Virus', 
@@ -2211,7 +2311,7 @@ const digimons = [
   },
   {
     name: 'Kimeramon', 
-    image: 'placeholder.jpeg',
+    image: 'kimeramon.webp',
     series: 'Adventure 02',
     level: 'Ultimate', 
     attribute: 'Data', 
@@ -2221,7 +2321,7 @@ const digimons = [
   },
   {
     name: 'Millenniummon', 
-    image: 'placeholder.jpeg',
+    image: 'millenniummon.webp',
     series: 'Adventure 02',
     level: 'Mega', 
     attribute: 'Virus', 
@@ -2231,7 +2331,7 @@ const digimons = [
   },
   {
     name: 'Kuramon', 
-    image: 'placeholder.jpeg',
+    image: 'kuramon.webp',
     series: 'Adventure 02',
     level: 'Fresh', 
     attribute: 'Unidentified', 
@@ -2241,7 +2341,7 @@ const digimons = [
   },
   {
     name: 'Tsumemon', 
-    image: 'placeholder.jpeg',
+    image: 'tsumemon.webp',
     series: 'Adventure 02',
     level: 'In-Training', 
     attribute: 'Unidentified', 
@@ -2251,7 +2351,7 @@ const digimons = [
   },
   {
     name: 'Keramon', 
-    image: 'placeholder.jpeg',
+    image: 'keramon.webp',
     series: 'Adventure 02',
     level: 'Rookie', 
     attribute: 'Unidentified', 
@@ -2261,7 +2361,7 @@ const digimons = [
   },
   {
     name: 'Chrysalimon', 
-    image: 'placeholder.jpeg',
+    image: 'chrysalimon.webp',
     series: 'Adventure 02',
     level: 'Champion', 
     attribute: 'Unidentified', 
@@ -2271,7 +2371,7 @@ const digimons = [
   },
   {
     name: 'Infermon', 
-    image: 'placeholder.jpeg',
+    image: 'infermon.webp',
     series: 'Adventure 02',
     level: 'Ultimate', 
     attribute: 'Unidentified', 
@@ -2281,7 +2381,7 @@ const digimons = [
   },
   {
     name: 'Diaboromon', 
-    image: 'placeholder.jpeg',
+    image: 'diaboromon.webp',
     series: 'Adventure 02',
     level: 'Mega', 
     attribute: 'Unidentified', 
@@ -2291,7 +2391,7 @@ const digimons = [
   },
   {
     name: 'Armageddemon', 
-    image: 'placeholder.jpeg',
+    image: 'armageddemon.webp',
     series: 'Adventure 02',
     level: 'Mega', 
     attribute: 'Unidentified', 
@@ -2301,7 +2401,7 @@ const digimons = [
   },
   {
     name: 'Ebonwumon', 
-    image: 'placeholder.jpeg',
+    image: 'ebonwumon.webp',
     series: 'Adventure 02, Tamers',
     level: 'Mega', 
     attribute: 'Vaccine', 
@@ -2311,7 +2411,7 @@ const digimons = [
   },
   {
     name: 'Zhuqiaomon', 
-    image: 'placeholder.jpeg',
+    image: 'zhuqiaomon.webp',
     series: 'Adventure 02, Tamers',
     level: 'Mega', 
     attribute: 'Virus', 
@@ -2321,7 +2421,7 @@ const digimons = [
   },
   {
     name: 'Azulongmon', 
-    image: 'placeholder.jpeg',
+    image: 'azulongmon.webp',
     series: 'Adventure 02, Tamers',
     level: 'Mega', 
     attribute: 'Data', 
@@ -2331,7 +2431,7 @@ const digimons = [
   },
   {
     name: 'Baihumon', 
-    image: 'placeholder.jpeg',
+    image: 'baihumon.webp',
     series: 'Adventure 02, Tamers',
     level: 'Mega', 
     attribute: 'Data', 
@@ -2341,7 +2441,7 @@ const digimons = [
   },
   {
     name: 'Huanglongmon', 
-    image: 'placeholder.jpeg',
+    image: 'huanglongmon.webp',
     series: 'Fusion',
     level: 'Mega', 
     attribute: 'NO DATA', 
@@ -2351,7 +2451,7 @@ const digimons = [
   },
   {
     name: 'Mihiramon', 
-    image: 'placeholder.jpeg',
+    image: 'mihiramon.webp',
     series: 'Tamers',
     level: 'Ultimate', 
     attribute: 'Data', 
@@ -2361,7 +2461,7 @@ const digimons = [
   },
   {
     name: 'Antylamon (Evil)', 
-    image: 'placeholder.jpeg',
+    image: 'antylamonEvil.webp',
     series: 'Tamers',
     level: 'Ultimate', 
     attribute: 'Virus/Data', 
@@ -2371,7 +2471,7 @@ const digimons = [
   },
   {
     name: 'Majiramon', 
-    image: 'placeholder.jpeg',
+    image: 'majiramon.webp',
     series: 'Tamers',
     level: 'Ultimate', 
     attribute: 'Data', 
@@ -2381,7 +2481,7 @@ const digimons = [
   },
   {
     name: 'Sandiramon', 
-    image: 'placeholder.jpeg',
+    image: 'sandiramon.webp',
     series: 'Tamers',
     level: 'Ultimate', 
     attribute: 'Virus', 
@@ -2391,7 +2491,7 @@ const digimons = [
   },
   {
     name: 'Indramon', 
-    image: 'placeholder.jpeg',
+    image: 'indramon.webp',
     series: 'Tamers',
     level: 'Ultimate', 
     attribute: 'Virus', 
@@ -2401,7 +2501,7 @@ const digimons = [
   },
   {
     name: 'Pajiramon', 
-    image: 'placeholder.jpeg',
+    image: 'pajiramon.webp',
     series: 'Tamers',
     level: 'Ultimate', 
     attribute: 'Virus', 
@@ -2411,7 +2511,7 @@ const digimons = [
   },
   {
     name: 'Makuramon', 
-    image: 'placeholder.jpeg',
+    image: 'makuramon.webp',
     series: 'Tamers',
     level: 'Ultimate', 
     attribute: 'Data', 
@@ -2421,7 +2521,7 @@ const digimons = [
   },
   {
     name: 'Sinduramon', 
-    image: 'placeholder.jpeg',
+    image: 'sinduramon.webp',
     series: 'Tamers',
     level: 'Ultimate', 
     attribute: 'Data', 
@@ -2431,7 +2531,7 @@ const digimons = [
   },
   {
     name: 'Caturamon', 
-    image: 'placeholder.jpeg',
+    image: 'caturamon.webp',
     series: 'Tamers',
     level: 'Ultimate', 
     attribute: 'Data', 
@@ -2441,7 +2541,7 @@ const digimons = [
   },
   {
     name: 'Vikaralamon', 
-    image: 'placeholder.jpeg',
+    image: 'vikaralamon.webp',
     series: 'Tamers',
     level: 'Ultimate', 
     attribute: 'Vaccine', 
@@ -2451,7 +2551,7 @@ const digimons = [
   },
   {
     name: 'Kumbhiramon', 
-    image: 'placeholder.jpeg',
+    image: 'kumbhiramon.webp',
     series: 'Tamers',
     level: 'Ultimate', 
     attribute: 'Vaccine', 
@@ -2461,7 +2561,7 @@ const digimons = [
   },
   {
     name: 'Vajramon', 
-    image: 'placeholder.jpeg',
+    image: 'vajramon.webp',
     series: 'Tamers',
     level: 'Ultimate', 
     attribute: 'Vaccine', 
@@ -2469,6 +2569,47 @@ const digimons = [
     canDigivolve: true,
     tamer: 'None'
   },
+  {
+    name: 'Thundermon', 
+    image: 'thundermon.webp',
+    series: 'Adventure 02, Frontier',
+    level: 'Champion', 
+    attribute: 'Data', 
+    type: 'Mutant', 
+    canDigivolve: true,
+    tamer: 'None'
+  },
+  {
+    name: 'Mamemon', 
+    image: 'mamemon.webp',
+    series: 'Adventure 02, Frontier',
+    level: 'Ultimate', 
+    attribute: 'Data', 
+    type: 'Mutant', 
+    canDigivolve: true,
+    tamer: 'None'
+  },
+  {
+    name: 'BigMamemon', 
+    image: 'bigMamemon.webp',
+    series: 'Adventure 02, Frontier',
+    level: 'Ultimate', 
+    attribute: 'Data', 
+    type: 'Mutant', 
+    canDigivolve: true,
+    tamer: 'None'
+  },
+  {
+    name: 'MetalMamemon', 
+    image: 'metalMamemon.webp',
+    series: 'Adventure 02, Frontier',
+    level: 'Ultimate', 
+    attribute: 'Data', 
+    type: 'Cyborg', 
+    canDigivolve: true,
+    tamer: 'None'
+  },
+  
 
 ];
 
