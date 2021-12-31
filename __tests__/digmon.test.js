@@ -23,7 +23,7 @@ describe('digimon routes', () => {
   test('create a digimon', async () => {
 
     const res = await request(app)
-      .post('/api/v1/digimon')
+      .post('/api/v1/digimons')
       .send(digimon);
 
     expect(res.body).toEqual({ ...digimon, id: '1' });
@@ -45,7 +45,7 @@ describe('digimon routes', () => {
 
     await DigitalMonster.create(secondDigimon);
     const res = await request(app)
-      .get('/api/v1/digimon')
+      .get('/api/v1/digimons')
       .send(digimon)
       .send(secondDigimon);
 
@@ -56,7 +56,7 @@ describe('digimon routes', () => {
     const newDigimon = await DigitalMonster.create(digimon);
 
     const res = await request(app)
-      .get(`/api/v1/digimon/${newDigimon.id}`);
+      .get(`/api/v1/digimons/${newDigimon.id}`);
 
     expect(res.body).toEqual({ ...digimon, id: '1' });
   });
@@ -76,11 +76,11 @@ describe('digimon routes', () => {
     });
     
     const res = await request(app)
-      .get('/api/v1/digimon/query/query?canDigivolve=true');
+      .get('/api/v1/digimons/query/query?canDigivolve=true');
     expect(res.body).toEqual([newDigimon, secondDigimon]);
 
     const resSecond = await request(app)
-      .get('/api/v1/digimon/query/query?level=rookie&type=lizard');
+      .get('/api/v1/digimons/query/query?level=rookie&type=lizard');
     expect(resSecond.body).toEqual([newDigimon]);
   });
 
@@ -98,7 +98,7 @@ describe('digimon routes', () => {
 
     wrongDigimon.type = 'Reptile';
     const res = await request(app)
-      .put(`/api/v1/digimon/${wrongDigimon.id}`)
+      .put(`/api/v1/digimons/${wrongDigimon.id}`)
       .send(wrongDigimon);
 
     expect(res.body).not.toEqual({ ...wrongDigimon, id: '3' });
@@ -117,7 +117,7 @@ describe('digimon routes', () => {
     });
 
     const res = await request(app)
-      .delete(`/api/v1/digimon/${pokemon.id}`)
+      .delete(`/api/v1/digimons/${pokemon.id}`)
       .send(pokemon);
     
     expect(res.body).toEqual({ ...pokemon, id: '1' });
