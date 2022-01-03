@@ -1211,7 +1211,7 @@ const digimons = [
   },
   {
     name: 'Leomon', 
-    image: '.webp',
+    image: 'leomon.webp',
     series: 'Adventure 01, Tamers',
     level: 'Ultimate', 
     attribute: 'Vaccine', 
@@ -1221,7 +1221,7 @@ const digimons = [
   },
   {
     name: 'SaberLeomon', 
-    image: '.webp',
+    image: 'saberLeomon.webp',
     series: 'Adventure 01, Tamers',
     level: 'Mega', 
     attribute: 'Data', 
